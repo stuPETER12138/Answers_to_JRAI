@@ -8,7 +8,8 @@
       "includePath": [
         "/opt/ros/humble/include/**",
         "/home/wu/SRC/Answers_to_JRAI/src/interfaces/include/**",
-        "/usr/include/**"
+        "/usr/include/**",
+        "${workspaceFolder}/install/interfaces/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

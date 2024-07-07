@@ -1,0 +1,16 @@
+/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_publisher
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/package_run_dependencies/part_one
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/parent_prefix_path/part_one
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.sh
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.dsv
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.sh
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.dsv
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.bash
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.sh
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.zsh
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.dsv
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.dsv
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/packages/part_one
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig.cmake
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig-version.cmake
+/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.xml

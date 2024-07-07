@@ -11,6 +11,14 @@ find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(interfaces REQUIRED)
+# find_library(time REQUIRED)
+
+add_executable(node_1_publisher src/node_1_publisher.cpp)
+ament_target_dependencies(node_1_publisher rclcpp interfaces)
+
+install(TARGETS
+node_1_publisher
+DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
