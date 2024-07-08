@@ -210,6 +210,58 @@ node_1_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_1_publisher.dir/build.make CMakeFiles/node_1_publisher.dir/build
 .PHONY : node_1_publisher/fast
 
+#=============================================================================
+# Target rules for targets named node_1_subscriber
+
+# Build rule for target.
+node_1_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node_1_subscriber
+.PHONY : node_1_subscriber
+
+# fast build rule for target.
+node_1_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_1_subscriber.dir/build.make CMakeFiles/node_1_subscriber.dir/build
+.PHONY : node_1_subscriber/fast
+
+#=============================================================================
+# Target rules for targets named node_2_01
+
+# Build rule for target.
+node_2_01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node_2_01
+.PHONY : node_2_01
+
+# fast build rule for target.
+node_2_01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_01.dir/build.make CMakeFiles/node_2_01.dir/build
+.PHONY : node_2_01/fast
+
+#=============================================================================
+# Target rules for targets named node_2_02
+
+# Build rule for target.
+node_2_02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node_2_02
+.PHONY : node_2_02
+
+# fast build rule for target.
+node_2_02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_02.dir/build.make CMakeFiles/node_2_02.dir/build
+.PHONY : node_2_02/fast
+
+#=============================================================================
+# Target rules for targets named node_2_03
+
+# Build rule for target.
+node_2_03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node_2_03
+.PHONY : node_2_03
+
+# fast build rule for target.
+node_2_03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_03.dir/build.make CMakeFiles/node_2_03.dir/build
+.PHONY : node_2_03/fast
+
 src/node_1_publisher.o: src/node_1_publisher.cpp.o
 .PHONY : src/node_1_publisher.o
 
@@ -234,6 +286,102 @@ src/node_1_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_1_publisher.dir/build.make CMakeFiles/node_1_publisher.dir/src/node_1_publisher.cpp.s
 .PHONY : src/node_1_publisher.cpp.s
 
+src/node_1_subscriber.o: src/node_1_subscriber.cpp.o
+.PHONY : src/node_1_subscriber.o
+
+# target to build an object file
+src/node_1_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_1_subscriber.dir/build.make CMakeFiles/node_1_subscriber.dir/src/node_1_subscriber.cpp.o
+.PHONY : src/node_1_subscriber.cpp.o
+
+src/node_1_subscriber.i: src/node_1_subscriber.cpp.i
+.PHONY : src/node_1_subscriber.i
+
+# target to preprocess a source file
+src/node_1_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_1_subscriber.dir/build.make CMakeFiles/node_1_subscriber.dir/src/node_1_subscriber.cpp.i
+.PHONY : src/node_1_subscriber.cpp.i
+
+src/node_1_subscriber.s: src/node_1_subscriber.cpp.s
+.PHONY : src/node_1_subscriber.s
+
+# target to generate assembly for a file
+src/node_1_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_1_subscriber.dir/build.make CMakeFiles/node_1_subscriber.dir/src/node_1_subscriber.cpp.s
+.PHONY : src/node_1_subscriber.cpp.s
+
+src/node_2_01.o: src/node_2_01.cpp.o
+.PHONY : src/node_2_01.o
+
+# target to build an object file
+src/node_2_01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_01.dir/build.make CMakeFiles/node_2_01.dir/src/node_2_01.cpp.o
+.PHONY : src/node_2_01.cpp.o
+
+src/node_2_01.i: src/node_2_01.cpp.i
+.PHONY : src/node_2_01.i
+
+# target to preprocess a source file
+src/node_2_01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_01.dir/build.make CMakeFiles/node_2_01.dir/src/node_2_01.cpp.i
+.PHONY : src/node_2_01.cpp.i
+
+src/node_2_01.s: src/node_2_01.cpp.s
+.PHONY : src/node_2_01.s
+
+# target to generate assembly for a file
+src/node_2_01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_01.dir/build.make CMakeFiles/node_2_01.dir/src/node_2_01.cpp.s
+.PHONY : src/node_2_01.cpp.s
+
+src/node_2_02.o: src/node_2_02.cpp.o
+.PHONY : src/node_2_02.o
+
+# target to build an object file
+src/node_2_02.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_02.dir/build.make CMakeFiles/node_2_02.dir/src/node_2_02.cpp.o
+.PHONY : src/node_2_02.cpp.o
+
+src/node_2_02.i: src/node_2_02.cpp.i
+.PHONY : src/node_2_02.i
+
+# target to preprocess a source file
+src/node_2_02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_02.dir/build.make CMakeFiles/node_2_02.dir/src/node_2_02.cpp.i
+.PHONY : src/node_2_02.cpp.i
+
+src/node_2_02.s: src/node_2_02.cpp.s
+.PHONY : src/node_2_02.s
+
+# target to generate assembly for a file
+src/node_2_02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_02.dir/build.make CMakeFiles/node_2_02.dir/src/node_2_02.cpp.s
+.PHONY : src/node_2_02.cpp.s
+
+src/node_2_03.o: src/node_2_03.cpp.o
+.PHONY : src/node_2_03.o
+
+# target to build an object file
+src/node_2_03.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_03.dir/build.make CMakeFiles/node_2_03.dir/src/node_2_03.cpp.o
+.PHONY : src/node_2_03.cpp.o
+
+src/node_2_03.i: src/node_2_03.cpp.i
+.PHONY : src/node_2_03.i
+
+# target to preprocess a source file
+src/node_2_03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_03.dir/build.make CMakeFiles/node_2_03.dir/src/node_2_03.cpp.i
+.PHONY : src/node_2_03.cpp.i
+
+src/node_2_03.s: src/node_2_03.cpp.s
+.PHONY : src/node_2_03.s
+
+# target to generate assembly for a file
+src/node_2_03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_03.dir/build.make CMakeFiles/node_2_03.dir/src/node_2_03.cpp.s
+.PHONY : src/node_2_03.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +398,25 @@ help:
 	@echo "... part_one_uninstall"
 	@echo "... uninstall"
 	@echo "... node_1_publisher"
+	@echo "... node_1_subscriber"
+	@echo "... node_2_01"
+	@echo "... node_2_02"
+	@echo "... node_2_03"
 	@echo "... src/node_1_publisher.o"
 	@echo "... src/node_1_publisher.i"
 	@echo "... src/node_1_publisher.s"
+	@echo "... src/node_1_subscriber.o"
+	@echo "... src/node_1_subscriber.i"
+	@echo "... src/node_1_subscriber.s"
+	@echo "... src/node_2_01.o"
+	@echo "... src/node_2_01.i"
+	@echo "... src/node_2_01.s"
+	@echo "... src/node_2_02.o"
+	@echo "... src/node_2_02.i"
+	@echo "... src/node_2_02.s"
+	@echo "... src/node_2_03.o"
+	@echo "... src/node_2_03.i"
+	@echo "... src/node_2_03.s"
 .PHONY : help
 
 

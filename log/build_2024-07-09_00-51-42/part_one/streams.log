@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target node_2_03[0m
+[0.055s] [ 50%] Built target node_1_publisher
+[0.055s] [ 50%] Built target node_2_02
+[0.055s] [ 75%] Built target node_1_subscriber
+[0.059s] [ 87%] [32mBuilding CXX object CMakeFiles/node_2_03.dir/src/node_2_03.cpp.o[0m
+[5.492s] [100%] [32m[1mLinking CXX executable node_2_03[0m
+[5.717s] [100%] Built target node_2_03
+[5.726s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[5.768s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one
+[5.773s] -- Install configuration: ""
+[5.773s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_publisher
+[5.773s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_subscriber
+[5.773s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_02
+[5.774s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_03
+[5.777s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_03" to ""
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/package_run_dependencies/part_one
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/parent_prefix_path/part_one
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.sh
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.dsv
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.sh
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.dsv
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.bash
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.sh
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.zsh
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.dsv
+[5.777s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.dsv
+[5.777s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/packages/part_one
+[5.778s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig.cmake
+[5.778s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig-version.cmake
+[5.778s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.xml
+[5.779s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one

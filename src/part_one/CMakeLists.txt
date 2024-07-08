@@ -11,13 +11,24 @@ find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(interfaces REQUIRED)
-# find_library(time REQUIRED)
 
 add_executable(node_1_publisher src/node_1_publisher.cpp)
 ament_target_dependencies(node_1_publisher rclcpp interfaces)
+add_executable(node_1_subscriber src/node_1_subscriber.cpp)
+ament_target_dependencies(node_1_subscriber rclcpp interfaces)
+add_executable(node_2_01 src/node_2_01.cpp)
+ament_target_dependencies(node_2_01 rclcpp std_msgs)
+add_executable(node_2_02 src/node_2_02.cpp)
+ament_target_dependencies(node_2_02 rclcpp std_msgs)
+add_executable(node_2_03 src/node_2_03.cpp)
+ament_target_dependencies(node_2_03 rclcpp std_msgs)
 
 install(TARGETS
 node_1_publisher
+node_1_subscriber
+node_2_01
+node_2_02
+node_2_03
 DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

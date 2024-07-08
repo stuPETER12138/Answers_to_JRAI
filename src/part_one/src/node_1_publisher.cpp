@@ -7,11 +7,13 @@ using interfaces::msg::Now;
 
 class Publisher : public rclcpp::Node {
     public:
-    Publisher() : Node("now_time_publisher") {
+    Publisher() : Node("now_publisher") {
         publisher_ = this->create_publisher<Now>("now_time", 10);
         timer_ = this->create_wall_timer(1000ms, std::bind(&Publisher::timer_callback, this));
     }
     private:
+    rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::Publisher<Now>::SharedPtr publisher_;
     void timer_callback() {
         time_t t = time(0);
         char tmp[64];
@@ -21,8 +23,6 @@ class Publisher : public rclcpp::Node {
         RCLCPP_INFO(this->get_logger(), "%s", time.now.c_str());
         publisher_->publish(time);
     }
-    rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<Now>::SharedPtr publisher_;
 };
 
 int main(int argc, char *argv[]) {

@@ -1,0 +1,81 @@
+[0.013s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[0.034s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.104s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.125s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.126s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.129s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.173s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.174s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.345s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.392s] -- Found interfaces: 0.0.0 (/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake)
+[0.400s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.458s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.458s] -- Configured cppcheck include dirs: 
+[0.458s] -- Configured cppcheck exclude dirs and/or files: 
+[0.459s] -- Added test 'lint_cmake' to check CMake code style
+[0.459s] -- Added test 'uncrustify' to check C / C++ code style
+[0.459s] -- Configured uncrustify additional arguments: 
+[0.459s] -- Added test 'xmllint' to check XML markup files
+[0.460s] -- Configuring done
+[0.476s] -- Generating done
+[0.477s] -- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/part_one
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target node_1_subscriber[0m
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target node_1_publisher[0m
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target node_2_02[0m
+[0.520s] [ 12%] [32mBuilding CXX object CMakeFiles/node_2_03.dir/src/node_2_03.cpp.o[0m
+[0.522s] [ 75%] Built target node_1_subscriber
+[0.522s] [ 75%] [32mBuilding CXX object CMakeFiles/node_2_02.dir/src/node_2_02.cpp.o[0m
+[0.522s] [ 75%] Built target node_1_publisher
+[2.049s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.049s]                  from [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_2_02.cpp:1[m[K:
+[2.050s] [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_2_02.cpp:[m[K In member function ‘[01m[Kvoid Publisher02::timer_callback()[m[K’:
+[2.050s] [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_2_02.cpp:25:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.050s]    25 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"fibonacci: %d"[m[K, num.data);
+[2.050s]       |                                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.050s] [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_2_02.cpp:25:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.050s]    25 |         RCLCPP_INFO(this->get_logger(), "fibonacci: [01;36m[K%d[m[K", num.data);
+[2.050s]       |                                                     [01;36m[K~^[m[K
+[2.050s]       |                                                      [01;36m[K|[m[K
+[2.050s]       |                                                      [01;36m[Kint[m[K
+[3.101s] [ 87%] [32m[1mLinking CXX executable node_2_02[0m
+[3.212s] [ 87%] Built target node_2_02
+[5.638s] [100%] [32m[1mLinking CXX executable node_2_03[0m
+[5.873s] [100%] Built target node_2_03
+[5.884s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[5.926s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one
+[5.934s] -- Install configuration: ""
+[5.935s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_publisher
+[5.935s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_subscriber
+[5.935s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_02
+[5.936s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_02" to ""
+[5.936s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_03
+[5.939s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_03" to ""
+[5.939s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/package_run_dependencies/part_one
+[5.939s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/parent_prefix_path/part_one
+[5.939s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.sh
+[5.939s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.dsv
+[5.939s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.sh
+[5.939s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.dsv
+[5.939s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.bash
+[5.939s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.sh
+[5.939s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.zsh
+[5.940s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.dsv
+[5.940s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.dsv
+[5.940s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/packages/part_one
+[5.940s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig.cmake
+[5.940s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig-version.cmake
+[5.940s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.xml
+[5.941s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one
