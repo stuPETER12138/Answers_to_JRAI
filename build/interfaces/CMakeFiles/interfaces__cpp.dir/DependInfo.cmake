@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/now__builder.hpp" "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/now.hpp"
   "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/now__struct.hpp" "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/now.hpp"
   "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/now__traits.hpp" "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/now.hpp"
+  "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/money__builder.hpp" "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/now.hpp"
+  "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/money__struct.hpp" "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/now.hpp"
+  "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/money__traits.hpp" "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/now.hpp"
+  "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/srv/money.hpp" "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp/interfaces/msg/now.hpp"
   )
 
 

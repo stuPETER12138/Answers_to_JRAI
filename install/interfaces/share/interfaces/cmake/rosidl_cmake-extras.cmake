@@ -1,4 +1,4 @@
 # generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
 
-set(interfaces_IDL_FILES "msg/Now.idl")
-set(interfaces_INTERFACE_FILES "msg/Now.msg")
+set(interfaces_IDL_FILES "msg/Now.idl;srv/Money.idl")
+set(interfaces_INTERFACE_FILES "msg/Now.msg;srv/Money.srv;srv/Money_Request.msg;srv/Money_Response.msg")

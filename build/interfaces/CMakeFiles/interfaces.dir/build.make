@@ -67,6 +67,9 @@ include CMakeFiles/interfaces.dir/compiler_depend.make
 include CMakeFiles/interfaces.dir/progress.make
 
 CMakeFiles/interfaces: /home/wu/SRC/Answers_to_JRAI/src/interfaces/msg/Now.msg
+CMakeFiles/interfaces: /home/wu/SRC/Answers_to_JRAI/src/interfaces/srv/Money.srv
+CMakeFiles/interfaces: rosidl_cmake/srv/Money_Request.msg
+CMakeFiles/interfaces: rosidl_cmake/srv/Money_Response.msg
 
 interfaces: CMakeFiles/interfaces
 interfaces: CMakeFiles/interfaces.dir/build.make

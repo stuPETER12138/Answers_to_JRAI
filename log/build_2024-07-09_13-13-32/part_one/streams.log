@@ -1,0 +1,62 @@
+[0.011s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/home/wu/SRC/Answers_to_JRAI/install/part_one:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target node_3_server[0m
+[0.060s] [ 78%] Built target node_2_02
+[0.060s] [ 78%] [32mBuilding CXX object CMakeFiles/node_3_client.dir/src/node_3_client.cpp.o[0m
+[0.060s] [ 78%] Built target node_1_subscriber
+[0.060s] [ 78%] Built target node_2_01
+[0.060s] [ 78%] Built target node_1_publisher
+[0.060s] [ 78%] Built target node_2_03
+[0.062s] [ 85%] [32mBuilding CXX object CMakeFiles/node_3_server.dir/src/node_3_server.cpp.o[0m
+[1.695s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.696s]                  from [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_3_client.cpp:1[m[K:
+[1.696s] [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_3_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.696s] [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_3_client.cpp:42:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kinterfaces::srv::Money_Response_<std::allocator<void> >::_answer_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.696s]    42 |         RCLCPP_INFO(client->get_logger(), [01;35m[K"%s!"[m[K, response.get()->answer);
+[1.696s]       |                                           [01;35m[K^~~~~[m[K
+[1.696s] [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_3_client.cpp:42:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.696s]    42 |         RCLCPP_INFO(client->get_logger(), "[01;36m[K%s[m[K!", response.get()->answer);
+[1.696s]       |                                            [01;36m[K~^[m[K
+[1.696s]       |                                             [01;36m[K|[m[K
+[1.696s]       |                                             [01;36m[Kchar*[m[K
+[2.566s] [ 92%] [32m[1mLinking CXX executable node_3_server[0m
+[2.575s] [100%] [32m[1mLinking CXX executable node_3_client[0m
+[2.710s] [100%] Built target node_3_server
+[2.721s] [100%] Built target node_3_client
+[2.734s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/home/wu/SRC/Answers_to_JRAI/install/part_one:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[2.787s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/home/wu/SRC/Answers_to_JRAI/install/part_one:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one
+[2.796s] -- Install configuration: ""
+[2.796s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_publisher
+[2.796s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_subscriber
+[2.796s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_01
+[2.797s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_02
+[2.797s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_03
+[2.797s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_client
+[2.798s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_client" to ""
+[2.798s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_server
+[2.799s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_server" to ""
+[2.799s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/package_run_dependencies/part_one
+[2.799s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/parent_prefix_path/part_one
+[2.799s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.sh
+[2.799s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.dsv
+[2.799s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.sh
+[2.799s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.dsv
+[2.799s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.bash
+[2.799s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.sh
+[2.799s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.zsh
+[2.800s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.dsv
+[2.800s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.dsv
+[2.800s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/packages/part_one
+[2.800s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig.cmake
+[2.800s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig-version.cmake
+[2.800s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.xml
+[2.802s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/home/wu/SRC/Answers_to_JRAI/install/part_one:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one

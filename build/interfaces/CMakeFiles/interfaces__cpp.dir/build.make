@@ -70,6 +70,10 @@ CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/now.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/now__builder.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/now__struct.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/now__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/money.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/money__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/money__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/money__traits.hpp
 
 rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/share/rosidl_genera
 rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/interfaces/msg/now.hpp: rosidl_adapter/interfaces/msg/Now.idl
+rosidl_generator_cpp/interfaces/msg/now.hpp: rosidl_adapter/interfaces/srv/Money.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wu/SRC/Answers_to_JRAI/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_cpp__arguments.json
 
@@ -99,11 +104,27 @@ rosidl_generator_cpp/interfaces/msg/detail/now__struct.hpp: rosidl_generator_cpp
 rosidl_generator_cpp/interfaces/msg/detail/now__traits.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/now__traits.hpp
 
+rosidl_generator_cpp/interfaces/srv/money.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/money.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/money__builder.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/money__builder.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/money__struct.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/money__struct.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/money__traits.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/money__traits.hpp
+
 interfaces__cpp: CMakeFiles/interfaces__cpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/now__builder.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/now__struct.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/now__traits.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/now.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/money__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/money__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/money__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/money.hpp
 interfaces__cpp: CMakeFiles/interfaces__cpp.dir/build.make
 .PHONY : interfaces__cpp
 

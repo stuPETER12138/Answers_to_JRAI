@@ -1,2 +1,6 @@
 msg/Now.idl
 msg/Now.msg
+srv/Money.idl
+srv/Money.srv
+srv/Money_Request.msg
+srv/Money_Response.msg

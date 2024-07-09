@@ -262,6 +262,32 @@ node_2_03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_03.dir/build.make CMakeFiles/node_2_03.dir/build
 .PHONY : node_2_03/fast
 
+#=============================================================================
+# Target rules for targets named node_3_server
+
+# Build rule for target.
+node_3_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node_3_server
+.PHONY : node_3_server
+
+# fast build rule for target.
+node_3_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_server.dir/build.make CMakeFiles/node_3_server.dir/build
+.PHONY : node_3_server/fast
+
+#=============================================================================
+# Target rules for targets named node_3_client
+
+# Build rule for target.
+node_3_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node_3_client
+.PHONY : node_3_client
+
+# fast build rule for target.
+node_3_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_client.dir/build.make CMakeFiles/node_3_client.dir/build
+.PHONY : node_3_client/fast
+
 src/node_1_publisher.o: src/node_1_publisher.cpp.o
 .PHONY : src/node_1_publisher.o
 
@@ -382,6 +408,54 @@ src/node_2_03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_03.dir/build.make CMakeFiles/node_2_03.dir/src/node_2_03.cpp.s
 .PHONY : src/node_2_03.cpp.s
 
+src/node_3_client.o: src/node_3_client.cpp.o
+.PHONY : src/node_3_client.o
+
+# target to build an object file
+src/node_3_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_client.dir/build.make CMakeFiles/node_3_client.dir/src/node_3_client.cpp.o
+.PHONY : src/node_3_client.cpp.o
+
+src/node_3_client.i: src/node_3_client.cpp.i
+.PHONY : src/node_3_client.i
+
+# target to preprocess a source file
+src/node_3_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_client.dir/build.make CMakeFiles/node_3_client.dir/src/node_3_client.cpp.i
+.PHONY : src/node_3_client.cpp.i
+
+src/node_3_client.s: src/node_3_client.cpp.s
+.PHONY : src/node_3_client.s
+
+# target to generate assembly for a file
+src/node_3_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_client.dir/build.make CMakeFiles/node_3_client.dir/src/node_3_client.cpp.s
+.PHONY : src/node_3_client.cpp.s
+
+src/node_3_server.o: src/node_3_server.cpp.o
+.PHONY : src/node_3_server.o
+
+# target to build an object file
+src/node_3_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_server.dir/build.make CMakeFiles/node_3_server.dir/src/node_3_server.cpp.o
+.PHONY : src/node_3_server.cpp.o
+
+src/node_3_server.i: src/node_3_server.cpp.i
+.PHONY : src/node_3_server.i
+
+# target to preprocess a source file
+src/node_3_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_server.dir/build.make CMakeFiles/node_3_server.dir/src/node_3_server.cpp.i
+.PHONY : src/node_3_server.cpp.i
+
+src/node_3_server.s: src/node_3_server.cpp.s
+.PHONY : src/node_3_server.s
+
+# target to generate assembly for a file
+src/node_3_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_server.dir/build.make CMakeFiles/node_3_server.dir/src/node_3_server.cpp.s
+.PHONY : src/node_3_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,6 +476,8 @@ help:
 	@echo "... node_2_01"
 	@echo "... node_2_02"
 	@echo "... node_2_03"
+	@echo "... node_3_client"
+	@echo "... node_3_server"
 	@echo "... src/node_1_publisher.o"
 	@echo "... src/node_1_publisher.i"
 	@echo "... src/node_1_publisher.s"
@@ -417,6 +493,12 @@ help:
 	@echo "... src/node_2_03.o"
 	@echo "... src/node_2_03.i"
 	@echo "... src/node_2_03.s"
+	@echo "... src/node_3_client.o"
+	@echo "... src/node_3_client.i"
+	@echo "... src/node_3_client.s"
+	@echo "... src/node_3_server.o"
+	@echo "... src/node_3_server.i"
+	@echo "... src/node_3_server.s"
 .PHONY : help
 
 

@@ -1,0 +1,2 @@
+Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16
+Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16

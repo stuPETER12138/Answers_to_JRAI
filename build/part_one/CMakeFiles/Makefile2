@@ -68,6 +68,8 @@ all: CMakeFiles/node_1_subscriber.dir/all
 all: CMakeFiles/node_2_01.dir/all
 all: CMakeFiles/node_2_02.dir/all
 all: CMakeFiles/node_2_03.dir/all
+all: CMakeFiles/node_3_server.dir/all
+all: CMakeFiles/node_3_client.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -82,6 +84,8 @@ clean: CMakeFiles/node_1_subscriber.dir/clean
 clean: CMakeFiles/node_2_01.dir/clean
 clean: CMakeFiles/node_2_02.dir/clean
 clean: CMakeFiles/node_2_03.dir/clean
+clean: CMakeFiles/node_3_server.dir/clean
+clean: CMakeFiles/node_3_client.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -265,6 +269,58 @@ node_2_03: CMakeFiles/node_2_03.dir/rule
 CMakeFiles/node_2_03.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_2_03.dir/build.make CMakeFiles/node_2_03.dir/clean
 .PHONY : CMakeFiles/node_2_03.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/node_3_server.dir
+
+# All Build rule for target.
+CMakeFiles/node_3_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_server.dir/build.make CMakeFiles/node_3_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_server.dir/build.make CMakeFiles/node_3_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wu/SRC/Answers_to_JRAI/build/part_one/CMakeFiles --progress-num=13,14 "Built target node_3_server"
+.PHONY : CMakeFiles/node_3_server.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/node_3_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wu/SRC/Answers_to_JRAI/build/part_one/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/node_3_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wu/SRC/Answers_to_JRAI/build/part_one/CMakeFiles 0
+.PHONY : CMakeFiles/node_3_server.dir/rule
+
+# Convenience name for target.
+node_3_server: CMakeFiles/node_3_server.dir/rule
+.PHONY : node_3_server
+
+# clean rule for target.
+CMakeFiles/node_3_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_server.dir/build.make CMakeFiles/node_3_server.dir/clean
+.PHONY : CMakeFiles/node_3_server.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/node_3_client.dir
+
+# All Build rule for target.
+CMakeFiles/node_3_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_client.dir/build.make CMakeFiles/node_3_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_client.dir/build.make CMakeFiles/node_3_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wu/SRC/Answers_to_JRAI/build/part_one/CMakeFiles --progress-num=11,12 "Built target node_3_client"
+.PHONY : CMakeFiles/node_3_client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/node_3_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wu/SRC/Answers_to_JRAI/build/part_one/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/node_3_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wu/SRC/Answers_to_JRAI/build/part_one/CMakeFiles 0
+.PHONY : CMakeFiles/node_3_client.dir/rule
+
+# Convenience name for target.
+node_3_client: CMakeFiles/node_3_client.dir/rule
+.PHONY : node_3_client
+
+# clean rule for target.
+CMakeFiles/node_3_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_3_client.dir/build.make CMakeFiles/node_3_client.dir/clean
+.PHONY : CMakeFiles/node_3_client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

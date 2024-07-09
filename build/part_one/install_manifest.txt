@@ -3,6 +3,8 @@
 /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_01
 /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_02
 /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_03
+/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_client
+/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_server
 /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/package_run_dependencies/part_one
 /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/parent_prefix_path/part_one
 /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.sh

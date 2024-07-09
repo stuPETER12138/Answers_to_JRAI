@@ -7,7 +7,6 @@ using std::placeholders::_1;
 using std_msgs::msg::Int32;
 using std_msgs::msg::String;
 
-
 class Node03 : public rclcpp::Node {
     public:
     Node03() : Node("node_03") {

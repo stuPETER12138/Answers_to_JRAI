@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Money.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct Money_Request {
+      int32 num;
+    };
+    struct Money_Response {
+      string answer;
+    };
+  };
+};

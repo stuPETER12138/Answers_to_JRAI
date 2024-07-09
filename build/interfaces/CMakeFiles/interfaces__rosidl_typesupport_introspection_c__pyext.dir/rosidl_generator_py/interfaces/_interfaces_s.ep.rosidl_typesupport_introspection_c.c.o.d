@@ -206,4 +206,7 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gene
  /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_c/interfaces/msg/detail/now__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_c/interfaces/msg/detail/now__functions.h
+ /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_c/interfaces/msg/detail/now__functions.h \
+ /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_c/interfaces/srv/detail/money__type_support.h \
+ /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_c/interfaces/srv/detail/money__struct.h \
+ /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_c/interfaces/srv/detail/money__functions.h

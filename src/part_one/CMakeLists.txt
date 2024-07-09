@@ -22,6 +22,10 @@ add_executable(node_2_02 src/node_2_02.cpp)
 ament_target_dependencies(node_2_02 rclcpp std_msgs)
 add_executable(node_2_03 src/node_2_03.cpp)
 ament_target_dependencies(node_2_03 rclcpp std_msgs)
+add_executable(node_3_server src/node_3_server.cpp)
+ament_target_dependencies(node_3_server rclcpp interfaces)
+add_executable(node_3_client src/node_3_client.cpp)
+ament_target_dependencies(node_3_client rclcpp interfaces)
 
 install(TARGETS
 node_1_publisher
@@ -29,6 +33,8 @@ node_1_subscriber
 node_2_01
 node_2_02
 node_2_03
+node_3_client
+node_3_server
 DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

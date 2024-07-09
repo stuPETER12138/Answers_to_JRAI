@@ -4,6 +4,10 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/interfaces/msg/detail/now__struct.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/now__traits.hpp"
   "rosidl_generator_cpp/interfaces/msg/now.hpp"
+  "rosidl_generator_cpp/interfaces/srv/detail/money__builder.hpp"
+  "rosidl_generator_cpp/interfaces/srv/detail/money__struct.hpp"
+  "rosidl_generator_cpp/interfaces/srv/detail/money__traits.hpp"
+  "rosidl_generator_cpp/interfaces/srv/money.hpp"
 )
 
 # Per-language clean rules from dependency scanning.
