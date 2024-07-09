@@ -28,7 +28,7 @@
 
 > 涉及到的消息类型ROS中都有自带，无需使用自定义消息，使用自定义消息也可以。
 
-![img01](../../public/img/topic.png)
+![img01](../../public/img/problem2.png)
 
 ### 1-2. Service通信
 
