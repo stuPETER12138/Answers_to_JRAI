@@ -26,6 +26,23 @@ add_executable(node_3_server src/node_3_server.cpp)
 ament_target_dependencies(node_3_server rclcpp interfaces)
 add_executable(node_3_client src/node_3_client.cpp)
 ament_target_dependencies(node_3_client rclcpp interfaces)
+# boil 相关节点
+add_executable(node_4_boil 
+    src/boil.cpp
+    src/node_4_main.cpp
+)
+target_include_directories(node_4_boil PUBLIC
+$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+$<INSTALL_INTERFACE:include>)
+target_compile_features(node_4_boil PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(node_4_boil rclcpp rclcpp_action interfaces)
+# boil_control 节点
+add_executable(node_4_control src/node_4_control.cpp)
+target_include_directories(node_4_control PUBLIC
+$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+$<INSTALL_INTERFACE:include>)
+target_compile_features(node_4_control PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(node_4_control rclcpp rclcpp_action interfaces)
 
 install(TARGETS
 node_1_publisher
@@ -35,6 +52,8 @@ node_2_02
 node_2_03
 node_3_client
 node_3_server
+node_4_boil
+node_4_control
 DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

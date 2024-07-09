@@ -55,7 +55,7 @@ add_library(interfaces::interfaces__rosidl_generator_c SHARED IMPORTED)
 
 set_target_properties(interfaces::interfaces__rosidl_generator_c PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/interfaces"
-  INTERFACE_LINK_LIBRARIES "rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_interface::rosidl_typesupport_interface;rcutils::rcutils"
+  INTERFACE_LINK_LIBRARIES "action_msgs::action_msgs__rosidl_generator_c;builtin_interfaces::builtin_interfaces__rosidl_generator_c;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_c;rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_interface::rosidl_typesupport_interface;rcutils::rcutils"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

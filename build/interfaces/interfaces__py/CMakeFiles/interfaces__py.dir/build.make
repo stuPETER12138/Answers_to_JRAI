@@ -71,10 +71,13 @@ interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interf
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_now.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_money.py
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/_boiling.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/__init__.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/__init__.py
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/__init__.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_now_s.c
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_money_s.c
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/_boiling_s.c
 
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -91,6 +94,14 @@ rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/Now.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/srv/Money.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/action/Boiling.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wu/SRC/Answers_to_JRAI/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/wu/SRC/Answers_to_JRAI/build/interfaces/interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -106,11 +117,17 @@ rosidl_generator_py/interfaces/msg/_now.py: rosidl_generator_py/interfaces/_inte
 rosidl_generator_py/interfaces/srv/_money.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_money.py
 
+rosidl_generator_py/interfaces/action/_boiling.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/action/_boiling.py
+
 rosidl_generator_py/interfaces/msg/__init__.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/__init__.py
 
 rosidl_generator_py/interfaces/srv/__init__.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/__init__.py
+
+rosidl_generator_py/interfaces/action/__init__.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/action/__init__.py
 
 rosidl_generator_py/interfaces/msg/_now_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_now_s.c
@@ -118,10 +135,16 @@ rosidl_generator_py/interfaces/msg/_now_s.c: rosidl_generator_py/interfaces/_int
 rosidl_generator_py/interfaces/srv/_money_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_money_s.c
 
+rosidl_generator_py/interfaces/action/_boiling_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/action/_boiling_s.c
+
 interfaces__py: interfaces__py/CMakeFiles/interfaces__py
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+interfaces__py: rosidl_generator_py/interfaces/action/__init__.py
+interfaces__py: rosidl_generator_py/interfaces/action/_boiling.py
+interfaces__py: rosidl_generator_py/interfaces/action/_boiling_s.c
 interfaces__py: rosidl_generator_py/interfaces/msg/__init__.py
 interfaces__py: rosidl_generator_py/interfaces/msg/_now.py
 interfaces__py: rosidl_generator_py/interfaces/msg/_now_s.c

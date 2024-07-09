@@ -1,4 +1,0 @@
-Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16
-Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16
-Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/interfaces
-Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/interfaces

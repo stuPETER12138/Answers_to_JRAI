@@ -55,7 +55,7 @@ add_library(interfaces::interfaces__rosidl_typesupport_introspection_c SHARED IM
 
 set_target_properties(interfaces::interfaces__rosidl_typesupport_introspection_c PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/interfaces"
-  INTERFACE_LINK_LIBRARIES "interfaces::interfaces__rosidl_generator_c;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c"
+  INTERFACE_LINK_LIBRARIES "interfaces::interfaces__rosidl_generator_c;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c;action_msgs::action_msgs__rosidl_typesupport_introspection_c;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_c;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_c"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)
