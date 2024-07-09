@@ -6,7 +6,9 @@
 
 - 记不清题目了？ [题目重现](/src/part_one/problems_review.md)
 
-- 快速运行？ 
+- 快速查看？ 
 ```
+source install/setup.bash
+
 ros2 launch 
 ```
