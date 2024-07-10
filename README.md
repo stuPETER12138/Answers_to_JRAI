@@ -14,5 +14,5 @@
 
 ```shell
 source install/setup.bash
-ros2 launch 
+ros2 launch part_one part_one.launch.py
 ```
