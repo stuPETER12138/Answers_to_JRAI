@@ -456,10 +456,8 @@ cdr_serialize(
   const interfaces::action::Boiling_Feedback & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: temperature
-  cdr << ros_message.temperature;
-  // Member: time
-  cdr << ros_message.time;
+  // Member: per_second_temperature
+  cdr << ros_message.per_second_temperature;
   return true;
 }
 
@@ -469,11 +467,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   interfaces::action::Boiling_Feedback & ros_message)
 {
-  // Member: temperature
-  cdr >> ros_message.temperature;
-
-  // Member: time
-  cdr >> ros_message.time;
+  // Member: per_second_temperature
+  cdr >> ros_message.per_second_temperature;
 
   return true;
 }
@@ -491,15 +486,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: temperature
+  // Member: per_second_temperature
   {
-    size_t item_size = sizeof(ros_message.temperature);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: time
-  {
-    size_t item_size = sizeof(ros_message.time);
+    size_t item_size = sizeof(ros_message.per_second_temperature);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -527,16 +516,7 @@ max_serialized_size_Boiling_Feedback(
   is_plain = true;
 
 
-  // Member: temperature
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: time
+  // Member: per_second_temperature
   {
     size_t array_size = 1;
 
@@ -553,7 +533,7 @@ max_serialized_size_Boiling_Feedback(
     using DataType = interfaces::action::Boiling_Feedback;
     is_plain =
       (
-      offsetof(DataType, time) +
+      offsetof(DataType, per_second_temperature) +
       last_member_size
       ) == ret_val;
   }

@@ -467,8 +467,7 @@ interfaces__action__Boiling_Feedback__init(interfaces__action__Boiling_Feedback 
   if (!msg) {
     return false;
   }
-  // temperature
-  // time
+  // per_second_temperature
   return true;
 }
 
@@ -478,8 +477,7 @@ interfaces__action__Boiling_Feedback__fini(interfaces__action__Boiling_Feedback 
   if (!msg) {
     return;
   }
-  // temperature
-  // time
+  // per_second_temperature
 }
 
 bool
@@ -488,12 +486,8 @@ interfaces__action__Boiling_Feedback__are_equal(const interfaces__action__Boilin
   if (!lhs || !rhs) {
     return false;
   }
-  // temperature
-  if (lhs->temperature != rhs->temperature) {
-    return false;
-  }
-  // time
-  if (lhs->time != rhs->time) {
+  // per_second_temperature
+  if (lhs->per_second_temperature != rhs->per_second_temperature) {
     return false;
   }
   return true;
@@ -507,10 +501,8 @@ interfaces__action__Boiling_Feedback__copy(
   if (!input || !output) {
     return false;
   }
-  // temperature
-  output->temperature = input->temperature;
-  // time
-  output->time = input->time;
+  // per_second_temperature
+  output->per_second_temperature = input->per_second_temperature;
   return true;
 }
 

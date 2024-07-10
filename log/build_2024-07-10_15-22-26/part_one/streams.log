@@ -1,0 +1,64 @@
+[0.013s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/part_one -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/part_one
+[0.026s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.111s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.131s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.132s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.136s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.189s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.276s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.365s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.416s] -- Found interfaces: 0.0.0 (/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake)
+[0.449s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.506s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.506s] -- Configured cppcheck include dirs: 
+[0.506s] -- Configured cppcheck exclude dirs and/or files: 
+[0.506s] -- Added test 'lint_cmake' to check CMake code style
+[0.507s] -- Added test 'uncrustify' to check C / C++ code style
+[0.507s] -- Configured uncrustify additional arguments: 
+[0.507s] -- Added test 'xmllint' to check XML markup files
+[0.508s] -- Configuring done
+[0.532s] -- Generating done
+[0.533s] -- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/part_one
+[0.545s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/part_one -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/part_one
+[0.548s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[0.595s] [ 44%] [32mBuilding CXX object CMakeFiles/node_1_publisher.dir/src/node_1_publisher.cpp.o[0m
+[0.595s] [ 44%] [32mBuilding CXX object CMakeFiles/node_4_server.dir/src/node_4_server.cpp.o[0m
+[0.595s] [ 44%] [32mBuilding CXX object CMakeFiles/node_1_subscriber.dir/src/node_1_subscriber.cpp.o[0m
+[0.595s] [ 44%] [32mBuilding CXX object CMakeFiles/node_3_server.dir/src/node_3_server.cpp.o[0m
+[0.595s] [ 44%] [32mBuilding CXX object CMakeFiles/node_2_03.dir/src/node_2_03.cpp.o[0m
+[0.595s] [ 44%] [32mBuilding CXX object CMakeFiles/node_4_client.dir/src/node_4_client.cpp.o[0m
+[0.595s] [ 44%] [32mBuilding CXX object CMakeFiles/node_2_02.dir/src/node_2_02.cpp.o[0m
+[0.595s] [ 44%] [32mBuilding CXX object CMakeFiles/node_2_01.dir/src/node_2_01.cpp.o[0m
+[0.595s] [ 50%] [32mBuilding CXX object CMakeFiles/node_3_client.dir/src/node_3_client.cpp.o[0m
+[0.777s] [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_4_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_action/rclcpp_action.hpp: No such file or directory
+[0.777s]     3 | #include [01;31m[K"rclcpp_action/rclcpp_action.hpp"[m[K
+[0.777s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.778s] compilation terminated.
+[0.781s] gmake[2]: *** [CMakeFiles/node_4_server.dir/build.make:76: CMakeFiles/node_4_server.dir/src/node_4_server.cpp.o] Error 1
+[0.781s] gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/node_4_server.dir/all] Error 2
+[0.781s] gmake[1]: *** Waiting for unfinished jobs....
+[0.827s] [01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_4_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_action/rclcpp_action.hpp: No such file or directory
+[0.827s]     3 | #include [01;31m[K"rclcpp_action/rclcpp_action.hpp"[m[K
+[0.827s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.827s] compilation terminated.
+[0.831s] gmake[2]: *** [CMakeFiles/node_4_client.dir/build.make:76: CMakeFiles/node_4_client.dir/src/node_4_client.cpp.o] Error 1
+[0.832s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/node_4_client.dir/all] Error 2
+[3.403s] [ 55%] [32m[1mLinking CXX executable node_3_server[0m
+[3.505s] [ 61%] [32m[1mLinking CXX executable node_3_client[0m
+[3.602s] [ 61%] Built target node_3_server
+[3.657s] [ 61%] Built target node_3_client
+[4.141s] [ 66%] [32m[1mLinking CXX executable node_1_publisher[0m
+[4.288s] [ 66%] Built target node_1_publisher
+[7.127s] [ 72%] [32m[1mLinking CXX executable node_1_subscriber[0m
+[7.257s] [ 77%] [32m[1mLinking CXX executable node_2_01[0m
+[7.370s] [ 83%] [32m[1mLinking CXX executable node_2_03[0m
+[7.391s] [ 88%] [32m[1mLinking CXX executable node_2_02[0m
+[7.465s] [ 88%] Built target node_1_subscriber
+[7.568s] [ 88%] Built target node_2_01
+[7.654s] [ 88%] Built target node_2_03
+[7.672s] [ 88%] Built target node_2_02
+[7.673s] gmake: *** [Makefile:146: all] Error 2
+[7.675s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '2': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16

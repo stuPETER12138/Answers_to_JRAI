@@ -305,17 +305,14 @@ class Boiling_Feedback(metaclass=Metaclass_Boiling_Feedback):
     """Message class 'Boiling_Feedback'."""
 
     __slots__ = [
-        '_temperature',
-        '_time',
+        '_per_second_temperature',
     ]
 
     _fields_and_field_types = {
-        'temperature': 'int32',
-        'time': 'int32',
+        'per_second_temperature': 'int32',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
     )
 
@@ -323,8 +320,7 @@ class Boiling_Feedback(metaclass=Metaclass_Boiling_Feedback):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.temperature = kwargs.get('temperature', int())
-        self.time = kwargs.get('time', int())
+        self.per_second_temperature = kwargs.get('per_second_temperature', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -355,9 +351,7 @@ class Boiling_Feedback(metaclass=Metaclass_Boiling_Feedback):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.temperature != other.temperature:
-            return False
-        if self.time != other.time:
+        if self.per_second_temperature != other.per_second_temperature:
             return False
         return True
 
@@ -367,34 +361,19 @@ class Boiling_Feedback(metaclass=Metaclass_Boiling_Feedback):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def temperature(self):
-        """Message field 'temperature'."""
-        return self._temperature
+    def per_second_temperature(self):
+        """Message field 'per_second_temperature'."""
+        return self._per_second_temperature
 
-    @temperature.setter
-    def temperature(self, value):
+    @per_second_temperature.setter
+    def per_second_temperature(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'temperature' field must be of type 'int'"
+                "The 'per_second_temperature' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'temperature' field must be an integer in [-2147483648, 2147483647]"
-        self._temperature = value
-
-    @builtins.property
-    def time(self):
-        """Message field 'time'."""
-        return self._time
-
-    @time.setter
-    def time(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'time' field must be of type 'int'"
-            assert value >= -2147483648 and value < 2147483648, \
-                "The 'time' field must be an integer in [-2147483648, 2147483647]"
-        self._time = value
+                "The 'per_second_temperature' field must be an integer in [-2147483648, 2147483647]"
+        self._per_second_temperature = value
 
 
 # Import statements for member types

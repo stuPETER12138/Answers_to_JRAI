@@ -1,0 +1,49 @@
+[0.008s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16
+[0.031s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.105s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.125s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.250s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.250s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.250s]   interfaces --arguments-file
+[0.250s]   /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter__arguments__interfaces.json
+[0.250s]   --output-dir
+[0.250s]   /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces
+[0.250s]   --output-file
+[0.250s]   /home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces.idls)
+[0.250s]   returned error code 1:
+[0.250s] 
+[0.250s]   Traceback (most recent call last):
+[0.251s] 
+[0.251s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.251s]       return _run_code(code, main_globals, None,
+[0.251s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.251s]       exec(code, run_globals)
+[0.251s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.251s]       sys.exit(main())
+[0.251s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.251s]       abs_idl_file = convert_to_idl(
+[0.251s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[0.251s]       return convert_action_to_idl(
+[0.251s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[0.251s]       action = parse_action_string(package_name, input_file.stem, content)
+[0.251s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 906, in parse_action_string
+[0.251s]       feedback_message = parse_message_string(
+[0.251s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 535, in parse_message_string
+[0.252s]       constants.append(Constant(type_string, name, value))
+[0.252s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 320, in __init__
+[0.252s]       raise NameError(
+[0.252s] 
+[0.252s]   NameError: 'final_temperature' is an invalid constant name.  It should have
+[0.252s]   the pattern '^[A-Z]([A-Z0-9_]?[A-Z0-9]+)*$'
+[0.252s] 
+[0.252s] Call Stack (most recent call first):
+[0.252s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.252s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.252s] 
+[0.252s] [0m
+[0.252s] -- Configuring incomplete, errors occurred!
+[0.253s] See also "/home/wu/SRC/Answers_to_JRAI/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.257s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.260s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16

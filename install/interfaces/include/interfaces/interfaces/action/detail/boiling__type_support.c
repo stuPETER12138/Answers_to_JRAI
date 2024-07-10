@@ -207,33 +207,16 @@ void interfaces__action__Boiling_Feedback__rosidl_typesupport_introspection_c__B
   interfaces__action__Boiling_Feedback__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember interfaces__action__Boiling_Feedback__rosidl_typesupport_introspection_c__Boiling_Feedback_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember interfaces__action__Boiling_Feedback__rosidl_typesupport_introspection_c__Boiling_Feedback_message_member_array[1] = {
   {
-    "temperature",  // name
+    "per_second_temperature",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(interfaces__action__Boiling_Feedback, temperature),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "time",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(interfaces__action__Boiling_Feedback, time),  // bytes offset in struct
+    offsetof(interfaces__action__Boiling_Feedback, per_second_temperature),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -247,7 +230,7 @@ static rosidl_typesupport_introspection_c__MessageMember interfaces__action__Boi
 static const rosidl_typesupport_introspection_c__MessageMembers interfaces__action__Boiling_Feedback__rosidl_typesupport_introspection_c__Boiling_Feedback_message_members = {
   "interfaces__action",  // message namespace
   "Boiling_Feedback",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(interfaces__action__Boiling_Feedback),
   interfaces__action__Boiling_Feedback__rosidl_typesupport_introspection_c__Boiling_Feedback_message_member_array,  // message members
   interfaces__action__Boiling_Feedback__rosidl_typesupport_introspection_c__Boiling_Feedback_init_function,  // function to initialize message memory (memory has to be allocated)

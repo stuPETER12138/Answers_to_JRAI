@@ -266,8 +266,7 @@ struct Boiling_Feedback_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->temperature = 0l;
-      this->time = 0l;
+      this->per_second_temperature = 0l;
     }
   }
 
@@ -277,30 +276,20 @@ struct Boiling_Feedback_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->temperature = 0l;
-      this->time = 0l;
+      this->per_second_temperature = 0l;
     }
   }
 
   // field types and members
-  using _temperature_type =
+  using _per_second_temperature_type =
     int32_t;
-  _temperature_type temperature;
-  using _time_type =
-    int32_t;
-  _time_type time;
+  _per_second_temperature_type per_second_temperature;
 
   // setters for named parameter idiom
-  Type & set__temperature(
+  Type & set__per_second_temperature(
     const int32_t & _arg)
   {
-    this->temperature = _arg;
-    return *this;
-  }
-  Type & set__time(
-    const int32_t & _arg)
-  {
-    this->time = _arg;
+    this->per_second_temperature = _arg;
     return *this;
   }
 
@@ -346,10 +335,7 @@ struct Boiling_Feedback_
   // comparison operators
   bool operator==(const Boiling_Feedback_ & other) const
   {
-    if (this->temperature != other.temperature) {
-      return false;
-    }
-    if (this->time != other.time) {
+    if (this->per_second_temperature != other.per_second_temperature) {
       return false;
     }
     return true;

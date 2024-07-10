@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target node_4_server[0m
+[35m[1mConsolidate compiler generated dependencies of target node_4_client[0m
+[ 38%] Built target node_1_publisher
+[ 38%] Built target node_1_subscriber
+[ 44%] Built target node_3_client
+[ 44%] Built target node_2_03
+[ 55%] Built target node_2_01
+[ 66%] Built target node_3_server
+[ 77%] Built target node_2_02
+[ 88%] [32mBuilding CXX object CMakeFiles/node_4_server.dir/src/node_4_server.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/node_4_client.dir/src/node_4_client.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable node_4_server[0m
+[100%] [32m[1mLinking CXX executable node_4_client[0m
+[100%] Built target node_4_server
+[100%] Built target node_4_client
+-- Install configuration: ""
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_publisher
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_subscriber
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_01
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_02
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_03
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_server
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_client
+-- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_4_server
+-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_4_server" to ""
+-- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_4_client
+-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_4_client" to ""
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/package_run_dependencies/part_one
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/parent_prefix_path/part_one
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.sh
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.dsv
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.bash
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.sh
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.zsh
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.dsv
+-- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.dsv
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/packages/part_one
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig.cmake
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig-version.cmake
+-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.xml

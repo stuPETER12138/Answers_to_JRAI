@@ -1,0 +1,14 @@
+[01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_4_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_action/rclcpp_action.hpp: No such file or directory
+    3 | #include [01;31m[K"rclcpp_action/rclcpp_action.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/node_4_server.dir/build.make:76: CMakeFiles/node_4_server.dir/src/node_4_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/node_4_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/wu/SRC/Answers_to_JRAI/src/part_one/src/node_4_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_action/rclcpp_action.hpp: No such file or directory
+    3 | #include [01;31m[K"rclcpp_action/rclcpp_action.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/node_4_client.dir/build.make:76: CMakeFiles/node_4_client.dir/src/node_4_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/node_4_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -12,9 +12,7 @@ module interfaces {
       int32 final_temperature;
     };
     struct Boiling_Feedback {
-      int32 temperature;
-
-      int32 time;
+      int32 per_second_temperature;
     };
   };
 };

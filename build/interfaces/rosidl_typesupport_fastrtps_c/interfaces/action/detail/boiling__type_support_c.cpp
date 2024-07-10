@@ -437,14 +437,9 @@ static bool _Boiling_Feedback__cdr_serialize(
     return false;
   }
   const _Boiling_Feedback__ros_msg_type * ros_message = static_cast<const _Boiling_Feedback__ros_msg_type *>(untyped_ros_message);
-  // Field name: temperature
+  // Field name: per_second_temperature
   {
-    cdr << ros_message->temperature;
-  }
-
-  // Field name: time
-  {
-    cdr << ros_message->time;
+    cdr << ros_message->per_second_temperature;
   }
 
   return true;
@@ -459,14 +454,9 @@ static bool _Boiling_Feedback__cdr_deserialize(
     return false;
   }
   _Boiling_Feedback__ros_msg_type * ros_message = static_cast<_Boiling_Feedback__ros_msg_type *>(untyped_ros_message);
-  // Field name: temperature
+  // Field name: per_second_temperature
   {
-    cdr >> ros_message->temperature;
-  }
-
-  // Field name: time
-  {
-    cdr >> ros_message->time;
+    cdr >> ros_message->per_second_temperature;
   }
 
   return true;
@@ -486,15 +476,9 @@ size_t get_serialized_size_interfaces__action__Boiling_Feedback(
   (void)padding;
   (void)wchar_size;
 
-  // field.name temperature
+  // field.name per_second_temperature
   {
-    size_t item_size = sizeof(ros_message->temperature);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name time
-  {
-    size_t item_size = sizeof(ros_message->time);
+    size_t item_size = sizeof(ros_message->per_second_temperature);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -527,15 +511,7 @@ size_t max_serialized_size_interfaces__action__Boiling_Feedback(
   full_bounded = true;
   is_plain = true;
 
-  // member: temperature
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: time
+  // member: per_second_temperature
   {
     size_t array_size = 1;
 
@@ -552,7 +528,7 @@ size_t max_serialized_size_interfaces__action__Boiling_Feedback(
     using DataType = interfaces__action__Boiling_Feedback;
     is_plain =
       (
-      offsetof(DataType, time) +
+      offsetof(DataType, per_second_temperature) +
       last_member_size
       ) == ret_val;
   }

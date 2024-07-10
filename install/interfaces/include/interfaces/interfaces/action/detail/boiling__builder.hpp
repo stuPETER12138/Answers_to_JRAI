@@ -105,32 +105,16 @@ namespace action
 namespace builder
 {
 
-class Init_Boiling_Feedback_time
+class Init_Boiling_Feedback_per_second_temperature
 {
 public:
-  explicit Init_Boiling_Feedback_time(::interfaces::action::Boiling_Feedback & msg)
-  : msg_(msg)
-  {}
-  ::interfaces::action::Boiling_Feedback time(::interfaces::action::Boiling_Feedback::_time_type arg)
-  {
-    msg_.time = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::interfaces::action::Boiling_Feedback msg_;
-};
-
-class Init_Boiling_Feedback_temperature
-{
-public:
-  Init_Boiling_Feedback_temperature()
+  Init_Boiling_Feedback_per_second_temperature()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_Boiling_Feedback_time temperature(::interfaces::action::Boiling_Feedback::_temperature_type arg)
+  ::interfaces::action::Boiling_Feedback per_second_temperature(::interfaces::action::Boiling_Feedback::_per_second_temperature_type arg)
   {
-    msg_.temperature = std::move(arg);
-    return Init_Boiling_Feedback_time(msg_);
+    msg_.per_second_temperature = std::move(arg);
+    return std::move(msg_);
   }
 
 private:
@@ -148,7 +132,7 @@ template<>
 inline
 auto build<::interfaces::action::Boiling_Feedback>()
 {
-  return interfaces::action::builder::Init_Boiling_Feedback_temperature();
+  return interfaces::action::builder::Init_Boiling_Feedback_per_second_temperature();
 }
 
 }  // namespace interfaces

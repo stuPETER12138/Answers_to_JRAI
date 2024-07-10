@@ -275,33 +275,16 @@ void Boiling_Feedback_fini_function(void * message_memory)
   typed_message->~Boiling_Feedback();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Boiling_Feedback_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Boiling_Feedback_message_member_array[1] = {
   {
-    "temperature",  // name
+    "per_second_temperature",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(interfaces::action::Boiling_Feedback, temperature),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "time",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(interfaces::action::Boiling_Feedback, time),  // bytes offset in struct
+    offsetof(interfaces::action::Boiling_Feedback, per_second_temperature),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -315,7 +298,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Boiling_Feedb
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Boiling_Feedback_message_members = {
   "interfaces::action",  // message namespace
   "Boiling_Feedback",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(interfaces::action::Boiling_Feedback),
   Boiling_Feedback_message_member_array,  // message members
   Boiling_Feedback_init_function,  // function to initialize message memory (memory has to be allocated)

@@ -58,8 +58,7 @@ typedef struct interfaces__action__Boiling_Result__Sequence
 /// Struct defined in action/Boiling in the package interfaces.
 typedef struct interfaces__action__Boiling_Feedback
 {
-  int32_t temperature;
-  int32_t time;
+  int32_t per_second_temperature;
 } interfaces__action__Boiling_Feedback;
 
 // Struct for a sequence of interfaces__action__Boiling_Feedback.

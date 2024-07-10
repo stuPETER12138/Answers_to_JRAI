@@ -1,0 +1,308 @@
+[0.008s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16
+[0.028s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.104s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.347s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.639s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.653s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.653s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.653s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.662s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.667s] -- Added test 'lint_cmake' to check CMake code style
+[0.668s] -- Added test 'xmllint' to check XML markup files
+[0.669s] -- Configuring done
+[0.691s] -- Generating done
+[0.693s] -- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/interfaces
+[0.717s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.724s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.732s] [  4%] Built target ament_cmake_python_copy_interfaces
+[0.864s] running egg_info
+[0.864s] writing interfaces.egg-info/PKG-INFO
+[0.864s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[0.864s] writing top-level names to interfaces.egg-info/top_level.txt
+[0.866s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[0.866s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[0.893s] [  4%] Built target ament_cmake_python_build_interfaces_egg
+[1.014s] [  4%] Built target interfaces__cpp
+[1.014s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c[0m
+[1.022s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.022s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.022s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.022s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/money__functions.c.o[0m
+[1.022s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/boiling__functions.c.o[0m
+[1.022s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/now__functions.c.o[0m
+[1.097s] [ 19%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[1.131s] [ 19%] Built target interfaces__rosidl_generator_c
+[1.139s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.139s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.139s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.218s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[1.229s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/now__type_support.cpp.o[0m
+[1.229s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/money__type_support.cpp.o[0m
+[1.230s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/boiling__type_support.cpp.o[0m
+[1.249s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.260s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/boiling__type_support.cpp.o[0m
+[1.260s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/now__type_support.cpp.o[0m
+[1.260s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/money__type_support.cpp.o[0m
+[1.300s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.319s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/now__type_support.cpp.o[0m
+[1.319s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/boiling__type_support.cpp.o[0m
+[1.319s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/money__type_support.cpp.o[0m
+[1.369s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c[0m
+[1.384s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/money__type_support.cpp.o[0m
+[1.384s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/boiling__type_support.cpp.o[0m
+[1.385s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/now__type_support.cpp.o[0m
+[1.427s] [ 53%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[1.442s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.447s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[1.458s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/money__type_support_c.cpp.o[0m
+[1.458s] [ 59%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/now__type_support.c.o[0m
+[1.458s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/money__type_support.c.o[0m
+[1.458s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/boiling__type_support.c.o[0m
+[1.460s] [ 63%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/boiling__type_support_c.cpp.o[0m
+[1.462s] [ 65%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/now__type_support_c.cpp.o[0m
+[1.471s] [ 65%] Built target interfaces__rosidl_typesupport_c
+[1.499s] [ 68%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[1.535s] [ 68%] Built target interfaces__rosidl_typesupport_introspection_c
+[1.645s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[1.679s] [ 70%] Built target interfaces__rosidl_typesupport_cpp
+[1.710s] [ 72%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.727s] [ 74%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.744s] [ 76%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.764s] [ 76%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[1.781s] [ 76%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[1.797s] [ 76%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[1.816s] [ 76%] Built target interfaces
+[1.833s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.309s] [ 78%] Built target interfaces__py
+[2.320s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py[0m
+[2.331s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_money_s.c.o[0m
+[2.331s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_now_s.c.o[0m
+[2.331s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_boiling_s.c.o[0m
+[2.418s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[2.452s] [ 87%] Built target interfaces__rosidl_generator_py
+[2.461s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[2.461s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.461s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.470s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.470s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.470s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.555s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.555s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.557s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.583s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[2.584s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[2.584s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.593s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16
+[2.679s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/interfaces
+[2.684s] -- Install configuration: ""
+[2.684s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[2.684s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces
+[2.684s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv
+[2.684s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__type_support.h
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__struct.h
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__functions.c
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__functions.h
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/money.h
+[2.685s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg
+[2.685s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/now.h
+[2.685s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__type_support.h
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__functions.h
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__struct.h
+[2.685s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__functions.c
+[2.686s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action
+[2.686s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/boiling.h
+[2.686s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail
+[2.686s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__struct.h
+[2.686s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__functions.c
+[2.686s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__functions.h
+[2.686s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__type_support.h
+[2.686s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/library_path.sh
+[2.686s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/library_path.dsv
+[2.686s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[2.686s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[2.686s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces
+[2.687s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv
+[2.687s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.687s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__rosidl_typesupport_fastrtps_c.h
+[2.687s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg
+[2.687s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.687s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail
+[2.687s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__rosidl_typesupport_fastrtps_c.h
+[2.687s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action
+[2.687s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail
+[2.687s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__rosidl_typesupport_fastrtps_c.h
+[2.687s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[2.687s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.687s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces
+[2.687s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv
+[2.688s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.688s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__type_support.c
+[2.688s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__rosidl_typesupport_introspection_c.h
+[2.688s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg
+[2.688s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail
+[2.688s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__type_support.c
+[2.688s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__rosidl_typesupport_introspection_c.h
+[2.688s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.688s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action
+[2.688s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail
+[2.688s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__type_support.c
+[2.688s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__rosidl_typesupport_introspection_c.h
+[2.688s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[2.688s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.689s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[2.689s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[2.689s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces
+[2.689s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv
+[2.689s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.689s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__struct.hpp
+[2.689s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__builder.hpp
+[2.689s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__traits.hpp
+[2.689s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/money.hpp
+[2.689s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg
+[2.689s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail
+[2.689s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__struct.hpp
+[2.690s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__builder.hpp
+[2.690s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__traits.hpp
+[2.690s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/now.hpp
+[2.690s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action
+[2.690s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/boiling.hpp
+[2.690s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail
+[2.690s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__builder.hpp
+[2.690s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__traits.hpp
+[2.690s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__struct.hpp
+[2.690s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces
+[2.690s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv
+[2.690s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.691s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[2.691s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__rosidl_typesupport_fastrtps_cpp.hpp
+[2.691s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg
+[2.691s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.691s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail
+[2.691s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[2.691s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__rosidl_typesupport_fastrtps_cpp.hpp
+[2.691s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action
+[2.691s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail
+[2.691s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps
+[2.691s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__rosidl_typesupport_fastrtps_cpp.hpp
+[2.691s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.691s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.691s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces
+[2.692s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv
+[2.692s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.692s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__rosidl_typesupport_introspection_cpp.hpp
+[2.692s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__type_support.cpp
+[2.692s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg
+[2.692s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail
+[2.692s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__rosidl_typesupport_introspection_cpp.hpp
+[2.692s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__type_support.cpp
+[2.692s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action
+[2.692s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail
+[2.692s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__type_support.cpp
+[2.692s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__rosidl_typesupport_introspection_cpp.hpp
+[2.692s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[2.693s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.693s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[2.693s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[2.693s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/pythonpath.sh
+[2.693s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[2.693s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[2.693s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.693s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.693s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.693s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.693s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[2.694s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv
+[2.694s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_money_s.c
+[2.694s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_money.py
+[2.694s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[2.694s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.694s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.694s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg
+[2.694s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_now.py
+[2.694s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_now_s.c
+[2.694s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[2.694s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.695s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[2.695s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.695s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[2.695s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.695s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[2.695s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action
+[2.695s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_boiling.py
+[2.695s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_boiling_s.c
+[2.696s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py
+[2.725s] Listing '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[2.725s] Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[2.725s] Listing '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...
+[2.725s] Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py'...
+[2.725s] Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_boiling.py'...
+[2.725s] Listing '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[2.725s] Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[2.725s] Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_now.py'...
+[2.726s] Listing '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[2.726s] Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+[2.726s] Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_money.py'...
+[2.728s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.729s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.729s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.729s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.729s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.729s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.730s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[2.730s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[2.730s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/msg/Now.idl
+[2.730s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/srv/Money.idl
+[2.730s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/action/Boiling.idl
+[2.730s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/msg/Now.msg
+[2.730s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/srv/Money.srv
+[2.730s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/srv/Money_Request.msg
+[2.730s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/srv/Money_Response.msg
+[2.730s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/action/Boiling.action
+[2.730s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[2.731s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[2.731s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[2.731s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[2.731s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/path.sh
+[2.731s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/path.dsv
+[2.731s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/local_setup.bash
+[2.731s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/local_setup.sh
+[2.731s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/local_setup.zsh
+[2.731s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/local_setup.dsv
+[2.731s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.dsv
+[2.731s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[2.731s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[2.731s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[2.732s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[2.733s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.xml
+[2.735s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/interfaces

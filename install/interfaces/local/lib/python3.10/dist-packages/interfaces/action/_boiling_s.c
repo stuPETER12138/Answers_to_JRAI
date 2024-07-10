@@ -240,22 +240,13 @@ bool interfaces__action__boiling__feedback__convert_from_py(PyObject * _pymsg, v
     assert(strncmp("interfaces.action._boiling.Boiling_Feedback", full_classname_dest, 43) == 0);
   }
   interfaces__action__Boiling_Feedback * ros_message = _ros_message;
-  {  // temperature
-    PyObject * field = PyObject_GetAttrString(_pymsg, "temperature");
+  {  // per_second_temperature
+    PyObject * field = PyObject_GetAttrString(_pymsg, "per_second_temperature");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->temperature = (int32_t)PyLong_AsLong(field);
-    Py_DECREF(field);
-  }
-  {  // time
-    PyObject * field = PyObject_GetAttrString(_pymsg, "time");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->time = (int32_t)PyLong_AsLong(field);
+    ros_message->per_second_temperature = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -280,22 +271,11 @@ PyObject * interfaces__action__boiling__feedback__convert_to_py(void * raw_ros_m
     }
   }
   interfaces__action__Boiling_Feedback * ros_message = (interfaces__action__Boiling_Feedback *)raw_ros_message;
-  {  // temperature
+  {  // per_second_temperature
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->temperature);
+    field = PyLong_FromLong(ros_message->per_second_temperature);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "temperature", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // time
-    PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->time);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "time", field);
+      int rc = PyObject_SetAttrString(_pymessage, "per_second_temperature", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

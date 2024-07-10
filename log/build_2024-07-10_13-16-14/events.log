@@ -1,0 +1,345 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (-) JobUnselected: {'identifier': 'part_one'}
+[0.000261] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000273] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.005702] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.006091] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.006567] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wu/SRC/Answers_to_JRAI/build/interfaces', '--', '-j16', '-l16'], 'cwd': '/home/wu/SRC/Answers_to_JRAI/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1030'), ('SYSTEMD_EXEC_PID', '1449'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2832'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wu'), ('JOURNAL_STREAM', '9:16870'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wu/.local/bin:/home/wu/miniconda3/condabin:/opt/ros/humble/bin:/home/wu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1420,unix/robot:/tmp/.ICE-unix/1420'), ('INVOCATION_ID', '38d84f4eb53c43f0b0fb4c8610d50fa4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q24FQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96e5e1b37e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/wu/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wu/SRC/Answers_to_JRAI/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/wu/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.028045] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099243] (-) TimerEvent: {}
+[0.101847] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.102607] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.103996] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.124397] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199371] (-) TimerEvent: {}
+[0.299671] (-) TimerEvent: {}
+[0.347617] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.399796] (-) TimerEvent: {}
+[0.467110] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.499918] (-) TimerEvent: {}
+[0.600226] (-) TimerEvent: {}
+[0.624355] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.638850] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.652857] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.653019] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.653121] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.662012] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.667369] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.668267] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.669254] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.690995] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.693130] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/interfaces\n'}
+[0.700341] (-) TimerEvent: {}
+[0.716769] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.724177] (interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.732399] (interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.800437] (-) TimerEvent: {}
+[0.863959] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.864338] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[0.864549] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[0.864672] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[0.866004] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.866466] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.892791] (interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[0.900512] (-) TimerEvent: {}
+[1.000809] (-) TimerEvent: {}
+[1.013681] (interfaces) StdoutLine: {'line': b'[  4%] Built target interfaces__cpp\n'}
+[1.013913] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.022033] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.022200] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.022241] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.022447] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/money__functions.c.o\x1b[0m\n'}
+[1.022593] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/boiling__functions.c.o\x1b[0m\n'}
+[1.022649] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/now__functions.c.o\x1b[0m\n'}
+[1.097510] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.100873] (-) TimerEvent: {}
+[1.131285] (interfaces) StdoutLine: {'line': b'[ 19%] Built target interfaces__rosidl_generator_c\n'}
+[1.138833] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.138990] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.139044] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.200974] (-) TimerEvent: {}
+[1.217985] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.229078] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/now__type_support.cpp.o\x1b[0m\n'}
+[1.229245] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/money__type_support.cpp.o\x1b[0m\n'}
+[1.230426] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/boiling__type_support.cpp.o\x1b[0m\n'}
+[1.248985] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.260461] (interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/boiling__type_support.cpp.o\x1b[0m\n'}
+[1.260628] (interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/now__type_support.cpp.o\x1b[0m\n'}
+[1.260708] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/money__type_support.cpp.o\x1b[0m\n'}
+[1.299737] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.301039] (-) TimerEvent: {}
+[1.319221] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/now__type_support.cpp.o\x1b[0m\n'}
+[1.319396] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/boiling__type_support.cpp.o\x1b[0m\n'}
+[1.319452] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/money__type_support.cpp.o\x1b[0m\n'}
+[1.368467] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.383710] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/money__type_support.cpp.o\x1b[0m\n'}
+[1.384269] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/boiling__type_support.cpp.o\x1b[0m\n'}
+[1.384708] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/now__type_support.cpp.o\x1b[0m\n'}
+[1.401267] (-) TimerEvent: {}
+[1.426749] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.442262] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.446725] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.458099] (interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/money__type_support_c.cpp.o\x1b[0m\n'}
+[1.458335] (interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/now__type_support.c.o\x1b[0m\n'}
+[1.458443] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/money__type_support.c.o\x1b[0m\n'}
+[1.458515] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/boiling__type_support.c.o\x1b[0m\n'}
+[1.460195] (interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/boiling__type_support_c.cpp.o\x1b[0m\n'}
+[1.462498] (interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/now__type_support_c.cpp.o\x1b[0m\n'}
+[1.471376] (interfaces) StdoutLine: {'line': b'[ 65%] Built target interfaces__rosidl_typesupport_c\n'}
+[1.498811] (interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.501350] (-) TimerEvent: {}
+[1.535431] (interfaces) StdoutLine: {'line': b'[ 68%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[1.601478] (-) TimerEvent: {}
+[1.645409] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.678962] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[1.701583] (-) TimerEvent: {}
+[1.709822] (interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.727446] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.744192] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.763817] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.780952] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.797165] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.801659] (-) TimerEvent: {}
+[1.815800] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces\n'}
+[1.833135] (interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.901787] (-) TimerEvent: {}
+[2.002117] (-) TimerEvent: {}
+[2.102420] (-) TimerEvent: {}
+[2.202733] (-) TimerEvent: {}
+[2.303029] (-) TimerEvent: {}
+[2.308823] (interfaces) StdoutLine: {'line': b'[ 78%] Built target interfaces__py\n'}
+[2.319733] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py\x1b[0m\n'}
+[2.330942] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_money_s.c.o\x1b[0m\n'}
+[2.331153] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_now_s.c.o\x1b[0m\n'}
+[2.331293] (interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_boiling_s.c.o\x1b[0m\n'}
+[2.403203] (-) TimerEvent: {}
+[2.417743] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[2.452288] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_generator_py\n'}
+[2.460705] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.460902] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.460985] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.470530] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.470687] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.470734] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.503330] (-) TimerEvent: {}
+[2.554901] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.555111] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.556915] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.583666] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[2.583810] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.583848] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.592657] (interfaces) CommandEnded: {'returncode': 0}
+[2.603388] (-) TimerEvent: {}
+[2.670525] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[2.678751] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wu/SRC/Answers_to_JRAI/build/interfaces'], 'cwd': '/home/wu/SRC/Answers_to_JRAI/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1030'), ('SYSTEMD_EXEC_PID', '1449'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2832'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wu'), ('JOURNAL_STREAM', '9:16870'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wu/.local/bin:/home/wu/miniconda3/condabin:/opt/ros/humble/bin:/home/wu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1420,unix/robot:/tmp/.ICE-unix/1420'), ('INVOCATION_ID', '38d84f4eb53c43f0b0fb4c8610d50fa4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q24FQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96e5e1b37e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/wu/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wu/SRC/Answers_to_JRAI/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/wu/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.684235] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.684433] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[2.684524] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces\n'}
+[2.684599] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.684668] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.684733] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__type_support.h\n'}
+[2.684842] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__struct.h\n'}
+[2.684915] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__functions.c\n'}
+[2.685011] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__functions.h\n'}
+[2.685136] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/money.h\n'}
+[2.685224] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.685297] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.685369] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/now.h\n'}
+[2.685437] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.685505] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__type_support.h\n'}
+[2.685575] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__functions.h\n'}
+[2.685633] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__struct.h\n'}
+[2.685701] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__functions.c\n'}
+[2.685758] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.685829] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/boiling.h\n'}
+[2.685890] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.685949] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__struct.h\n'}
+[2.686027] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__functions.c\n'}
+[2.686100] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__functions.h\n'}
+[2.686178] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__type_support.h\n'}
+[2.686238] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[2.686299] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[2.686359] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[2.686618] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[2.686710] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces\n'}
+[2.686780] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.686859] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.686927] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__rosidl_typesupport_fastrtps_c.h\n'}
+[2.686999] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.687078] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.687148] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.687207] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__rosidl_typesupport_fastrtps_c.h\n'}
+[2.687268] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.687329] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.687387] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__rosidl_typesupport_fastrtps_c.h\n'}
+[2.687446] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.687527] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.687624] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces\n'}
+[2.687683] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.687741] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.687809] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__type_support.c\n'}
+[2.687872] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__rosidl_typesupport_introspection_c.h\n'}
+[2.687974] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.688035] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.688144] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__type_support.c\n'}
+[2.688209] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__rosidl_typesupport_introspection_c.h\n'}
+[2.688270] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.688334] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.688397] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.688459] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__type_support.c\n'}
+[2.688553] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__rosidl_typesupport_introspection_c.h\n'}
+[2.688625] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.688704] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.688796] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[2.689035] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[2.689121] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces\n'}
+[2.689188] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.689248] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.689318] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__struct.hpp\n'}
+[2.689386] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__builder.hpp\n'}
+[2.689444] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__traits.hpp\n'}
+[2.689512] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/money.hpp\n'}
+[2.689581] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.689661] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.689722] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__struct.hpp\n'}
+[2.689781] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__builder.hpp\n'}
+[2.689850] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__traits.hpp\n'}
+[2.689918] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/now.hpp\n'}
+[2.689993] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.690076] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/boiling.hpp\n'}
+[2.690162] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.690234] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__builder.hpp\n'}
+[2.690302] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__traits.hpp\n'}
+[2.690435] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__struct.hpp\n'}
+[2.690577] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces\n'}
+[2.690656] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.690725] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.690794] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[2.690861] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.690931] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.691016] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.691101] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.691168] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[2.691226] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.691296] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.691354] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.691412] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps\n'}
+[2.691480] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.691547] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.691635] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.691704] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces\n'}
+[2.691773] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.691831] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.691919] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.691977] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/srv/detail/money__type_support.cpp\n'}
+[2.692046] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.692133] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[2.692196] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.692254] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/msg/detail/now__type_support.cpp\n'}
+[2.692324] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.692382] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.692445] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__type_support.cpp\n'}
+[2.692510] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/include/interfaces/interfaces/action/detail/boiling__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.692569] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.692746] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.692839] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[2.693111] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[2.693193] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[2.693252] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[2.693332] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[2.693395] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.693454] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.693523] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.693595] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.693687] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[2.693766] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv\n'}
+[2.693824] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_money_s.c\n'}
+[2.693911] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_money.py\n'}
+[2.693997] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[2.694075] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.694206] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.694343] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[2.694431] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_now.py\n'}
+[2.694515] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_now_s.c\n'}
+[2.694587] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[2.694672] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.694809] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[2.694948] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.695110] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.695260] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.695396] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[2.695493] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action\n'}
+[2.695555] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_boiling.py\n'}
+[2.695639] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_boiling_s.c\n'}
+[2.695759] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py\n'}
+[2.703455] (-) TimerEvent: {}
+[2.724654] (interfaces) StdoutLine: {'line': b"Listing '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[2.724918] (interfaces) StdoutLine: {'line': b"Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[2.725096] (interfaces) StdoutLine: {'line': b"Listing '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...\n"}
+[2.725241] (interfaces) StdoutLine: {'line': b"Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py'...\n"}
+[2.725351] (interfaces) StdoutLine: {'line': b"Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_boiling.py'...\n"}
+[2.725452] (interfaces) StdoutLine: {'line': b"Listing '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[2.725550] (interfaces) StdoutLine: {'line': b"Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...\n"}
+[2.725645] (interfaces) StdoutLine: {'line': b"Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_now.py'...\n"}
+[2.725738] (interfaces) StdoutLine: {'line': b"Listing '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[2.725829] (interfaces) StdoutLine: {'line': b"Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...\n"}
+[2.725927] (interfaces) StdoutLine: {'line': b"Compiling '/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_money.py'...\n"}
+[2.728352] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.728819] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.728956] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.729240] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.729375] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.729672] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.729808] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[2.730075] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[2.730173] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/msg/Now.idl\n'}
+[2.730271] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/srv/Money.idl\n'}
+[2.730333] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/action/Boiling.idl\n'}
+[2.730439] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/msg/Now.msg\n'}
+[2.730496] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/srv/Money.srv\n'}
+[2.730555] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/srv/Money_Request.msg\n'}
+[2.730608] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/srv/Money_Response.msg\n'}
+[2.730663] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/action/Boiling.action\n'}
+[2.730717] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[2.730818] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[2.730874] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[2.730936] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[2.730990] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/path.sh\n'}
+[2.731043] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[2.731159] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/local_setup.bash\n'}
+[2.731220] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/local_setup.sh\n'}
+[2.731285] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[2.731345] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[2.731406] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.dsv\n'}
+[2.731490] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[2.731611] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.731686] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.731748] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.731809] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.731869] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.731933] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.731995] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.732056] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.732359] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.732440] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.732499] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.732556] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.732611] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.732667] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.732730] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.732795] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.732852] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.732908] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.732967] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.733022] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.733085] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.733151] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.733207] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.733262] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.733316] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[2.733372] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[2.733428] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.xml\n'}
+[2.734347] (interfaces) CommandEnded: {'returncode': 0}
+[2.803549] (-) TimerEvent: {}
+[2.844738] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[2.845174] (-) EventReactorShutdown: {}

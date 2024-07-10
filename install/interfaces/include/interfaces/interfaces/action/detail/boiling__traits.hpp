@@ -209,17 +209,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: temperature
+  // member: per_second_temperature
   {
-    out << "temperature: ";
-    rosidl_generator_traits::value_to_yaml(msg.temperature, out);
-    out << ", ";
-  }
-
-  // member: time
-  {
-    out << "time: ";
-    rosidl_generator_traits::value_to_yaml(msg.time, out);
+    out << "per_second_temperature: ";
+    rosidl_generator_traits::value_to_yaml(msg.per_second_temperature, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -228,23 +221,13 @@ inline void to_block_style_yaml(
   const Boiling_Feedback & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: temperature
+  // member: per_second_temperature
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "temperature: ";
-    rosidl_generator_traits::value_to_yaml(msg.temperature, out);
-    out << "\n";
-  }
-
-  // member: time
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "time: ";
-    rosidl_generator_traits::value_to_yaml(msg.time, out);
+    out << "per_second_temperature: ";
+    rosidl_generator_traits::value_to_yaml(msg.per_second_temperature, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
