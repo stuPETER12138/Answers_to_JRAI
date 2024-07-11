@@ -16,3 +16,8 @@
 source install/setup.bash
 ros2 launch part_one part_one.launch.py
 ```
+- 注：第三题的默认输入为 400，第四题的默认输入为 25。
+
+### 第 5 题
+
+### 第 6 题
