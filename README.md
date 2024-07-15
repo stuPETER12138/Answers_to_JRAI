@@ -2,6 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/license-MIT-green)
 ![Static Badge](https://img.shields.io/badge/ros2-Humble-blue)
+![Static Badge](https://img.shields.io/badge/CMAKE-3.8-pink)
 ![Static Badge](https://img.shields.io/badge/python-3.10.12-yellow)
 
 ### 第 1 - 4 题
