@@ -42,6 +42,7 @@ cmake ..
 make
 sudo make install
 ```
+安装完 BehaviorTree.CPP 后，你应该可以在`/usr/local/include`下找到名为 behaviortree_cpp 的依赖库。
 
 2. 安装 Groot2
 
