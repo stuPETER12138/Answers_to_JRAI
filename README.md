@@ -19,5 +19,9 @@ ros2 launch part_one part_one.launch.py
 ```
 
 ### 第 5 题
+```bash
+cd ./src/AStar
+./Astar
+```
 
 ### 第 6 题

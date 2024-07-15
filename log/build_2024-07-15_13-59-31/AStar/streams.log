@@ -1,0 +1,7 @@
+[0.011s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/AStar': /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/AStar -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/AStar
+[0.023s] [31mCMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+[0.023s]   CMake 3.28 or higher is required.  You are running version 3.22.1
+[0.023s] 
+[0.023s] [0m
+[0.023s] -- Configuring incomplete, errors occurred!
+[0.025s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/AStar' returned '1': /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/AStar -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/AStar
