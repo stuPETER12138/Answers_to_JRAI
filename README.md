@@ -50,7 +50,7 @@ sudo make install
 ```bash
 cd ~
 git clone git@github.com:BehaviorTree/BehaviorTree.ROS2.git
-cd BehaviorTree.ROS2
+cd BehaviorTree.ROS2/
 # 首先构建接口相关库
 cd cd btcpp_ros2_interfaces/
 mkdir build; cd build
@@ -83,14 +83,14 @@ make
 sudo make instal
 # 构建 parameter_traits
 cd ~
-cd generate_parameter_library/parameter_traits
+cd generate_parameter_library/parameter_traits/
 mkdir build; cd build
 cmake ..
 make
 sudo make instal
 # 打开另一文件夹，构建 generate_parameter_library
 cd ../../
-cd generate_parameter_library
+cd generate_parameter_library/
 mkdir build; cd build
 cmake ..
 make
@@ -103,8 +103,8 @@ python setup.py install
 # 最终，回归本心，构建 behaviortree_ros2
 # 此时依然在 ros2 环境下
 cd ~
-cd BehaviorTree.ROS2
-cd behaviortree_ros2
+cd BehaviorTree.ROS2/
+cd behaviortree_ros2/
 mkdir build; cd build
 cmake ..
 make
