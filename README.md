@@ -25,12 +25,10 @@ cd ./src/AStar
 ./Astar
 ```
 
-题目是啥？ [题目重现](./src/AStar/problem_review.md)
+- 题目是啥？ [题目重现](./src/AStar/problem_review.md)
 
 ### 第 6 题
 安装依赖先
-
-注：请在原始环境下进行，而非 conda 环境。
 
 1. 安装 [BehaviorTree.CPP]()
 
@@ -103,6 +101,7 @@ sudo make instal
 conda deactivate ros2
 python setup.py install
 # 最终，回归本心，构建 behaviortree_ros2
+# 此时依然在 ros2 环境下
 cd ~
 cd BehaviorTree.ROS2
 cd behaviortree_ros2
