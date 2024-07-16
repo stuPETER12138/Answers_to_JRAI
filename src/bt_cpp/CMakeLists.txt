@@ -9,6 +9,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(behaviortree_cpp REQUIRED)
 
+include_directories(./include/sample_nodes)
+
+add_executable(first_tree src/first_tree.cpp)
+ament_target_dependencies(first_tree behaviortree_cpp)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
