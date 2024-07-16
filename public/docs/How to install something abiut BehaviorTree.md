@@ -92,7 +92,7 @@ sudo make instal
 
 安装链接：[Groot2](https://www.behaviortree.dev/groot/)
 
-（网络原因，作者至今未下载成功，感兴趣的读者请自行尝试
+网络原因，作者下载得很慢很慢。感兴趣的读者请：尝试
 
 ```bash
 # 先装一些依赖
