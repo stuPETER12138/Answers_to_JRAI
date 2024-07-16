@@ -21,7 +21,7 @@ ros2 launch part_one part_one.launch.py
 跑就完了
 
 ```bash
-cd ./src/AStar
+cd ./src/AStar/
 ./Astar
 ```
 
@@ -129,7 +129,7 @@ chmod +x Groot2-[your_version]-linux-installer.run
 打开 Groot2：
 
 ```bash
-cd ~/Groot2/bin
+cd ~/Groot2/bin/
 ./groot2
 ```
 
