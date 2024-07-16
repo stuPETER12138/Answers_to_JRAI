@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16
+[0.030s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Found behaviortree_cpp: 4.6.2 (/usr/local/share/behaviortree_cpp/cmake)
+[0.104s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.152s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.152s] -- Configured cppcheck include dirs: /home/wu/SRC/Answers_to_JRAI/src/bt_cpp/./include/sample_nodes
+[0.152s] -- Configured cppcheck exclude dirs and/or files: 
+[0.153s] -- Added test 'lint_cmake' to check CMake code style
+[0.155s] -- Added test 'uncrustify' to check C / C++ code style
+[0.155s] -- Configured uncrustify additional arguments: 
+[0.155s] -- Added test 'xmllint' to check XML markup files
+[0.156s] -- Configuring done
+[0.158s] -- Generating done
+[0.159s] -- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/bt_cpp
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target first_tree[0m
+[0.191s] [ 50%] [32mBuilding CXX object CMakeFiles/first_tree.dir/src/first_tree.cpp.o[0m
+[0.213s] [100%] [32m[1mLinking CXX executable first_tree[0m
+[0.240s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.240s] (.text+0x1b): undefined reference to `main'
+[0.241s] collect2: error: ld returned 1 exit status
+[0.244s] gmake[2]: *** [CMakeFiles/first_tree.dir/build.make:98: first_tree] Error 1
+[0.244s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/first_tree.dir/all] Error 2
+[0.244s] gmake: *** [Makefile:146: all] Error 2
+[0.247s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16

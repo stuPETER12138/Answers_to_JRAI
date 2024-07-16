@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16
+[0.042s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Found behaviortree_cpp: 4.6.2 (/usr/local/share/behaviortree_cpp/cmake)
+[0.134s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.177s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.177s] -- Configured cppcheck include dirs: /home/wu/SRC/Answers_to_JRAI/src/bt_cpp/./include/sample_nodes
+[0.177s] -- Configured cppcheck exclude dirs and/or files: 
+[0.178s] -- Added test 'lint_cmake' to check CMake code style
+[0.180s] -- Added test 'uncrustify' to check C / C++ code style
+[0.180s] -- Configured uncrustify additional arguments: 
+[0.180s] -- Added test 'xmllint' to check XML markup files
+[0.181s] -- Configuring done
+[0.185s] -- Generating done
+[0.186s] -- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/bt_cpp
+[0.204s] [35m[1mConsolidate compiler generated dependencies of target first_tree[0m
+[0.222s] [ 50%] [32m[1mLinking CXX executable first_tree[0m
+[0.283s] /usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: warning: relocation against `_ZTVN10DummyNodes14ApproachObjectE' in read-only section `.text._ZN10DummyNodes14ApproachObjectC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN10DummyNodes14ApproachObjectC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]'
+[0.288s] /usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: in function `main::{lambda(BT::TreeNode&)#1}::operator()(BT::TreeNode&) const':
+[0.288s] first_tree.cpp:(.text+0x1d): undefined reference to `DummyNodes::CheckBattery()'
+[0.288s] /usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: in function `main::{lambda(BT::TreeNode&)#2}::operator()(BT::TreeNode&) const':
+[0.288s] first_tree.cpp:(.text+0x3f): undefined reference to `DummyNodes::GripperInterface::open()'
+[0.288s] /usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: in function `main::{lambda(BT::TreeNode&)#3}::operator()(BT::TreeNode&) const':
+[0.288s] first_tree.cpp:(.text+0x61): undefined reference to `DummyNodes::GripperInterface::close()'
+[0.289s] /usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: in function `DummyNodes::ApproachObject::ApproachObject(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[0.289s] first_tree.cpp:(.text._ZN10DummyNodes14ApproachObjectC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN10DummyNodes14ApproachObjectC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x6e): undefined reference to `vtable for DummyNodes::ApproachObject'
+[0.293s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[0.294s] collect2: error: ld returned 1 exit status
+[0.297s] gmake[2]: *** [CMakeFiles/first_tree.dir/build.make:98: first_tree] Error 1
+[0.297s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/first_tree.dir/all] Error 2
+[0.298s] gmake: *** [Makefile:146: all] Error 2
+[0.300s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16

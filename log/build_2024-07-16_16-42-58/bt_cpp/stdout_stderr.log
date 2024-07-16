@@ -1,0 +1,29 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found behaviortree_cpp: 4.6.2 (/usr/local/share/behaviortree_cpp/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/wu/SRC/Answers_to_JRAI/src/bt_cpp/./include/sample_nodes
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/bt_cpp
+[35m[1mConsolidate compiler generated dependencies of target first_tree[0m
+[ 50%] [32m[1mLinking CXX executable first_tree[0m
+/usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: warning: relocation against `_ZTVN10DummyNodes14ApproachObjectE' in read-only section `.text._ZN10DummyNodes14ApproachObjectC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN10DummyNodes14ApproachObjectC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]'
+/usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: in function `main::{lambda(BT::TreeNode&)#1}::operator()(BT::TreeNode&) const':
+first_tree.cpp:(.text+0x1d): undefined reference to `DummyNodes::CheckBattery()'
+/usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: in function `main::{lambda(BT::TreeNode&)#2}::operator()(BT::TreeNode&) const':
+first_tree.cpp:(.text+0x3f): undefined reference to `DummyNodes::GripperInterface::open()'
+/usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: in function `main::{lambda(BT::TreeNode&)#3}::operator()(BT::TreeNode&) const':
+first_tree.cpp:(.text+0x61): undefined reference to `DummyNodes::GripperInterface::close()'
+/usr/bin/ld: CMakeFiles/first_tree.dir/src/first_tree.cpp.o: in function `DummyNodes::ApproachObject::ApproachObject(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+first_tree.cpp:(.text._ZN10DummyNodes14ApproachObjectC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN10DummyNodes14ApproachObjectC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x6e): undefined reference to `vtable for DummyNodes::ApproachObject'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/first_tree.dir/build.make:98: first_tree] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/first_tree.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
