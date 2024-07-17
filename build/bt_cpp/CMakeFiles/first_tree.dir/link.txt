@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/first_tree.dir/src/first_tree.cpp.o -o first_tree  -Wl,-rpath,/usr/local/lib: /usr/local/lib/libbehaviortree_cpp.so 

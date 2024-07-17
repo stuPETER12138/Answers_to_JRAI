@@ -198,65 +198,65 @@ bt_cpp_uninstall/fast:
 .PHONY : bt_cpp_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named breakfast_tree
+# Target rules for targets named simple_tree
 
 # Build rule for target.
-breakfast_tree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 breakfast_tree
-.PHONY : breakfast_tree
+simple_tree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_tree
+.PHONY : simple_tree
 
 # fast build rule for target.
-breakfast_tree/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakfast_tree.dir/build.make CMakeFiles/breakfast_tree.dir/build
-.PHONY : breakfast_tree/fast
+simple_tree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tree.dir/build.make CMakeFiles/simple_tree.dir/build
+.PHONY : simple_tree/fast
 
-src/breakfast.o: src/breakfast.cpp.o
-.PHONY : src/breakfast.o
-
-# target to build an object file
-src/breakfast.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakfast_tree.dir/build.make CMakeFiles/breakfast_tree.dir/src/breakfast.cpp.o
-.PHONY : src/breakfast.cpp.o
-
-src/breakfast.i: src/breakfast.cpp.i
-.PHONY : src/breakfast.i
-
-# target to preprocess a source file
-src/breakfast.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakfast_tree.dir/build.make CMakeFiles/breakfast_tree.dir/src/breakfast.cpp.i
-.PHONY : src/breakfast.cpp.i
-
-src/breakfast.s: src/breakfast.cpp.s
-.PHONY : src/breakfast.s
-
-# target to generate assembly for a file
-src/breakfast.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakfast_tree.dir/build.make CMakeFiles/breakfast_tree.dir/src/breakfast.cpp.s
-.PHONY : src/breakfast.cpp.s
-
-src/breakfast_tree.o: src/breakfast_tree.cpp.o
-.PHONY : src/breakfast_tree.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/breakfast_tree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakfast_tree.dir/build.make CMakeFiles/breakfast_tree.dir/src/breakfast_tree.cpp.o
-.PHONY : src/breakfast_tree.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tree.dir/build.make CMakeFiles/simple_tree.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/breakfast_tree.i: src/breakfast_tree.cpp.i
-.PHONY : src/breakfast_tree.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/breakfast_tree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakfast_tree.dir/build.make CMakeFiles/breakfast_tree.dir/src/breakfast_tree.cpp.i
-.PHONY : src/breakfast_tree.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tree.dir/build.make CMakeFiles/simple_tree.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/breakfast_tree.s: src/breakfast_tree.cpp.s
-.PHONY : src/breakfast_tree.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/breakfast_tree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakfast_tree.dir/build.make CMakeFiles/breakfast_tree.dir/src/breakfast_tree.cpp.s
-.PHONY : src/breakfast_tree.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tree.dir/build.make CMakeFiles/simple_tree.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/put_in_the_fridge.o: src/put_in_the_fridge.cpp.o
+.PHONY : src/put_in_the_fridge.o
+
+# target to build an object file
+src/put_in_the_fridge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tree.dir/build.make CMakeFiles/simple_tree.dir/src/put_in_the_fridge.cpp.o
+.PHONY : src/put_in_the_fridge.cpp.o
+
+src/put_in_the_fridge.i: src/put_in_the_fridge.cpp.i
+.PHONY : src/put_in_the_fridge.i
+
+# target to preprocess a source file
+src/put_in_the_fridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tree.dir/build.make CMakeFiles/simple_tree.dir/src/put_in_the_fridge.cpp.i
+.PHONY : src/put_in_the_fridge.cpp.i
+
+src/put_in_the_fridge.s: src/put_in_the_fridge.cpp.s
+.PHONY : src/put_in_the_fridge.s
+
+# target to generate assembly for a file
+src/put_in_the_fridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tree.dir/build.make CMakeFiles/simple_tree.dir/src/put_in_the_fridge.cpp.s
+.PHONY : src/put_in_the_fridge.cpp.s
 
 # Help Target
 help:
@@ -273,13 +273,13 @@ help:
 	@echo "... test"
 	@echo "... bt_cpp_uninstall"
 	@echo "... uninstall"
-	@echo "... breakfast_tree"
-	@echo "... src/breakfast.o"
-	@echo "... src/breakfast.i"
-	@echo "... src/breakfast.s"
-	@echo "... src/breakfast_tree.o"
-	@echo "... src/breakfast_tree.i"
-	@echo "... src/breakfast_tree.s"
+	@echo "... simple_tree"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/put_in_the_fridge.o"
+	@echo "... src/put_in_the_fridge.i"
+	@echo "... src/put_in_the_fridge.s"
 .PHONY : help
 
 

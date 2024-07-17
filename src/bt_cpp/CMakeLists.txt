@@ -9,12 +9,13 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(behaviortree_cpp REQUIRED)
 
-add_executable(breakfast_tree src/breakfast_tree.cpp src/breakfast.h src/breakfast.cpp)
-ament_target_dependencies(breakfast_tree behaviortree_cpp)
+add_executable(simple_tree 
+src/main.cpp 
+src/put_in_the_fridge.h
+src/put_in_the_fridge.cpp)
 
-install(TARGETS
-breakfast_tree
-DESTINATION lib/${PROJECT_NAME})
+ament_target_dependencies(simple_tree
+behaviortree_cpp)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

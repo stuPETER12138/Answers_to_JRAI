@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target simple_tree[0m
+[0.059s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_tree.dir/src/main.cpp.o[0m
+[2.053s] [ 66%] [32m[1mLinking CXX executable simple_tree[0m
+[2.177s] [100%] Built target simple_tree
+[2.188s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16
+[2.229s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_cpp
+[2.236s] -- Install configuration: ""
+[2.236s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/ament_index/resource_index/package_run_dependencies/bt_cpp
+[2.236s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/ament_index/resource_index/parent_prefix_path/bt_cpp
+[2.236s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/environment/ament_prefix_path.sh
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/environment/ament_prefix_path.dsv
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/environment/path.sh
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/environment/path.dsv
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/local_setup.bash
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/local_setup.sh
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/local_setup.zsh
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/local_setup.dsv
+[2.237s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.dsv
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/ament_index/resource_index/packages/bt_cpp
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/cmake/bt_cppConfig.cmake
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/cmake/bt_cppConfig-version.cmake
+[2.237s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.xml
+[2.240s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_cpp

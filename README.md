@@ -30,4 +30,10 @@ cd ./src/AStar/
 ### 第 6 题
 使用开源行为树框架，设计一个简单的行为树。
 
-安装依赖先 [食用方法](./public/docs/How%20to%20install%20something%20abiut%20BehaviorTree.md)
+安装依赖： [食用方法](./public/docs/How%20to%20install%20something%20abiut%20BehaviorTree.md)
+
+```bash
+ ./build/bt_cpp/simple_tree
+ ```
+
+### 第 7 题
