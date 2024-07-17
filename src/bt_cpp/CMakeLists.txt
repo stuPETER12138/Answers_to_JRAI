@@ -9,11 +9,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(behaviortree_cpp REQUIRED)
 
-add_executable(first_tree src/first_tree.cpp)
-ament_target_dependencies(first_tree behaviortree_cpp)
+add_executable(breakfast_tree src/breakfast_tree.cpp src/breakfast.h src/breakfast.cpp)
+ament_target_dependencies(breakfast_tree behaviortree_cpp)
 
 install(TARGETS
-first_tree
+breakfast_tree
 DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -1,0 +1,4 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found behaviortree_cpp: 4.6.2 (/usr/local/share/behaviortree_cpp/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/wu/SRC/Answers_to_JRAI/build/bt_cpp/CMakeFiles/CMakeOutput.log".
