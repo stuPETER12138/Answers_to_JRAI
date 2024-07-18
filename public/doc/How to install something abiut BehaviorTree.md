@@ -10,7 +10,8 @@ sudo apt-get update
 sudo apt-get sqlite3
 sudo apt-get install libzmq3-dev libboost-dev
 # 需要用到协程
-sudo apt-get install libboost-coroutine-dev 
+sudo apt-get install libboost-coroutine-dev
+# 好戏开始
 cd BehaviorTree.CPP
 mkdir build; cd build
 cmake ..
@@ -35,7 +36,9 @@ mkdir build; cd build
 cmake ..
 make
 sudo make install
-# 接下来安装 generate_parameter_library 依赖，及其依赖： parameter_traits，及其依赖的依赖：tcb_span, tl_expected, rsl
+# 接下来安装 generate_parameter_library 依赖，
+# 及其依赖： parameter_traits，
+# 及其依赖的依赖：tcb_span, tl_expected, rsl
 cd ~
 git clone https://github.com/PickNikRobotics/generate_parameter_library.git
 git clone https://github.com/PickNikRobotics/RSL.git
