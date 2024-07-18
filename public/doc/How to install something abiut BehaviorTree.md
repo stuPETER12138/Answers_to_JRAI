@@ -17,6 +17,7 @@ cmake ..
 make
 sudo make install
 ```
+
 安装完 BehaviorTree.CPP 后，你应该可以在`/usr/local/include`下找到名为 behaviortree_cpp 的依赖库。
 
 2. 安装 [BehaviorTree.ROS2](https://github.com/BehaviorTree/BehaviorTree.ROS2)
@@ -27,13 +28,14 @@ sudo make install
 cd ~
 git clone git@github.com:BehaviorTree/BehaviorTree.ROS2.git
 cd BehaviorTree.ROS2/
-# 首先构建接口相关库
+# 首先构建接口相关库，其对于具体实践似乎并无帮助，
+# 但没有的话后续编译会报错（头痛
 cd cd btcpp_ros2_interfaces/
 mkdir build; cd build
 cmake ..
 make
 sudo make install
-# 接下来安装 generate_parameter_library 依赖，及其依赖 parameter_traits，及其依赖的依赖：tcb_span, tl_expected, rsl
+# 接下来安装 generate_parameter_library 依赖，及其依赖： parameter_traits，及其依赖的依赖：tcb_span, tl_expected, rsl
 cd ~
 git clone https://github.com/PickNikRobotics/generate_parameter_library.git
 git clone https://github.com/PickNikRobotics/RSL.git
@@ -87,8 +89,9 @@ make
 sudo make instal
 # 大功告成！
 ```
-
+<!--
 注意：要在`c_cpp_properties.json`中的`"includePath"`下添加`"/usr/local/include/btcpp_ros2_interfaces"`才可以调用 btcpp_ros2_interfaces 相关的头文件。
+-->
 
 3. 安装 Groot2
 
@@ -112,7 +115,6 @@ chmod +x Groot2-[your_version]-linux-installer.run
 cd ~/Groot2/bin/
 ./groot2
 ```
-
 
 ### 参考资料
 [行为树](https://www.behaviortree.dev/)
