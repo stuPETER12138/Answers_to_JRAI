@@ -88,6 +88,8 @@ sudo make instal
 # 大功告成！
 ```
 
+注意：要在`c_cpp_properties.json`中的`"includePath"`下添加`"/usr/local/include/btcpp_ros2_interfaces"`才可以调用 btcpp_ros2_interfaces 相关的头文件。
+
 3. 安装 Groot2
 
 安装链接：[Groot2](https://www.behaviortree.dev/groot/)
