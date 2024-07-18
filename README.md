@@ -1,8 +1,17 @@
-# Answers_to_JRAI
-![Static Badge](https://img.shields.io/badge/license-MIT-green)
-![Static Badge](https://img.shields.io/badge/ros2-Humble-blue)
-![Static Badge](https://img.shields.io/badge/CMAKE-3.8-pink)
-![Static Badge](https://img.shields.io/badge/python-3.10.12-yellow)
+<div align = 'center'>
+    <font size = '60'>Answers to JRAI</font>
+</div>
+
+<div align = 'center'>
+    <img alt="Static Badge" src="https://img.shields.io/badge/license-MIT-green">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Ubuntu-22.04-orange">
+    <img alt="Static Badge" src="https://img.shields.io/badge/ROS2-Humble-blue">
+</div>
+
+<div align = 'center'>
+    <img alt="Static Badge" src="https://img.shields.io/badge/CMAKE-3.8-pink">
+    <img alt="Static Badge" src="https://img.shields.io/badge/python-3.10.12-yellow">
+</div>
 
 ### 千里之行，始于足下
 
