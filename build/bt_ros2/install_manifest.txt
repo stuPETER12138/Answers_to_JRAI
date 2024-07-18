@@ -1,3 +1,5 @@
+/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/lib/bt_ros2/sample_server
+/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/lib/bt_ros2/sample_client
 /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/ament_index/resource_index/package_run_dependencies/bt_ros2
 /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/ament_index/resource_index/parent_prefix_path/bt_ros2
 /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/environment/ament_prefix_path.sh

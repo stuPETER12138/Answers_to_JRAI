@@ -7,10 +7,34 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(rclcpp_action REQUIRED)
 find_package(behaviortree_ros2 REQUIRED)
-find_package(std_msgs REQUIRED)
-find_package(std_srvs REQUIRED)
-find_package(btcpp_ros2_interfaces REQUIRED)
+find_package(interfaces REQUIRED)
+
+set(PACKAGE_DEPENDENCIES
+rclcpp
+rclcpp_action
+behaviortree_ros2
+interfaces)
+
+add_executable(sample_server src/main_server.cpp)
+ament_target_dependencies(sample_server ${PACKAGE_DEPENDENCIES})
+
+add_executable(sample_client 
+src/main_client.cpp
+src/fibonacci.cpp
+src/fibonacci.hpp)
+ament_target_dependencies(sample_client ${PACKAGE_DEPENDENCIES})
+
+install(TARGETS
+sample_server
+sample_client
+DESTINATION lib/${PROJECT_NAME})
+
+#install(DIRECTORY
+#launch
+#share/${PROJECT_NAME}/)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

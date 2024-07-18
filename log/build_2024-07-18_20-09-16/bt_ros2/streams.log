@@ -1,0 +1,53 @@
+[0.011s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/home/wu/SRC/Answers_to_JRAI/install/part_one:/home/wu/SRC/Answers_to_JRAI/install/btcpp_ros2_samples:/home/wu/SRC/Answers_to_JRAI/install/bt_ros2:/home/wu/SRC/Answers_to_JRAI/install/bt_cpp:/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_ros2 -- -j16 -l16
+[0.038s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.113s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.131s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.133s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.136s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.182s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.183s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.270s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.359s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.408s] -- Found behaviortree_ros2: 0.2.0 (/usr/local/share/behaviortree_ros2/cmake)
+[0.452s] -- Found parameter_traits: 0.3.8 (/usr/local/share/parameter_traits/cmake)
+[0.459s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.484s] -- Found interfaces: 0.0.0 (/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake)
+[0.515s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.563s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.563s] -- Configured cppcheck include dirs: 
+[0.563s] -- Configured cppcheck exclude dirs and/or files: 
+[0.563s] -- Added test 'lint_cmake' to check CMake code style
+[0.565s] -- Added test 'uncrustify' to check C / C++ code style
+[0.565s] -- Configured uncrustify additional arguments: 
+[0.565s] -- Added test 'xmllint' to check XML markup files
+[0.565s] -- Configuring done
+[0.578s] -- Generating done
+[0.579s] -- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/bt_ros2
+[0.614s] [ 60%] [32mBuilding CXX object CMakeFiles/sample_server.dir/src/main_server.cpp.o[0m
+[0.614s] [ 60%] [32mBuilding CXX object CMakeFiles/sample_client.dir/src/main_client.cpp.o[0m
+[0.615s] [ 60%] [32mBuilding CXX object CMakeFiles/sample_client.dir/src/fibonacci.cpp.o[0m
+[4.714s] [ 80%] [32m[1mLinking CXX executable sample_server[0m
+[4.854s] [ 80%] Built target sample_server
+[5.094s] [100%] [32m[1mLinking CXX executable sample_client[0m
+[5.282s] [100%] Built target sample_client
+[5.292s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/home/wu/SRC/Answers_to_JRAI/install/part_one:/home/wu/SRC/Answers_to_JRAI/install/btcpp_ros2_samples:/home/wu/SRC/Answers_to_JRAI/install/bt_ros2:/home/wu/SRC/Answers_to_JRAI/install/bt_cpp:/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_ros2 -- -j16 -l16
+[5.335s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/home/wu/SRC/Answers_to_JRAI/install/part_one:/home/wu/SRC/Answers_to_JRAI/install/btcpp_ros2_samples:/home/wu/SRC/Answers_to_JRAI/install/bt_ros2:/home/wu/SRC/Answers_to_JRAI/install/bt_cpp:/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_ros2
+[5.341s] -- Install configuration: ""
+[5.342s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/ament_index/resource_index/package_run_dependencies/bt_ros2
+[5.342s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/ament_index/resource_index/parent_prefix_path/bt_ros2
+[5.342s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/environment/ament_prefix_path.sh
+[5.342s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/environment/ament_prefix_path.dsv
+[5.342s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/environment/path.sh
+[5.342s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/environment/path.dsv
+[5.342s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/local_setup.bash
+[5.342s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/local_setup.sh
+[5.342s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/local_setup.zsh
+[5.342s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/local_setup.dsv
+[5.342s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.dsv
+[5.342s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/ament_index/resource_index/packages/bt_ros2
+[5.343s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/cmake/bt_ros2Config.cmake
+[5.343s] -- Up-to-date: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/cmake/bt_ros2Config-version.cmake
+[5.343s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.xml
+[5.344s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/home/wu/SRC/Answers_to_JRAI/install/part_one:/home/wu/SRC/Answers_to_JRAI/install/btcpp_ros2_samples:/home/wu/SRC/Answers_to_JRAI/install/bt_ros2:/home/wu/SRC/Answers_to_JRAI/install/bt_cpp:/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_ros2
