@@ -14,7 +14,7 @@ class FibonacciAction: public RosActionNode<Fibonacci> {
     ) : RosActionNode<Fibonacci>(name, conf, params) {}
     static BT::PortsList providedPorts() {
         return providedBasicPorts({
-            InputPort<unsigned>("msec")
+            InputPort<unsigned>("order")
         });
     }
     bool setGoal(RosActionNode::Goal & goal) override;

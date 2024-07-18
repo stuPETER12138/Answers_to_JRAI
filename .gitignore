@@ -1,2 +1,6 @@
 src/bt_cpp/examples
 src/bt_ros2/btcpp_ros2_samples
+.vscode/
+build/
+install/
+log/

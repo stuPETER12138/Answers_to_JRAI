@@ -1,6 +1,0 @@
-Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/btcpp_ros2_samples -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/btcpp_ros2_samples
-Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/btcpp_ros2_samples -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/btcpp_ros2_samples
-Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples -- -j16 -l16
-Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples -- -j16 -l16
-Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples
-Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/btcpp_ros2_samples

@@ -1,5 +1,0 @@
-int32 start_temperature
----
-int32 final_temperature
----
-int32 per_second_temperature

@@ -1,6 +1,0 @@
-Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/bt_ros2 -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/bt_ros2
-Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/bt_ros2 -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/bt_ros2
-Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_ros2 -- -j16 -l16
-Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_ros2 -- -j16 -l16
-Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_ros2
-Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_ros2

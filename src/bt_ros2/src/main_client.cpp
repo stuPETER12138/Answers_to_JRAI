@@ -7,9 +7,9 @@
 using namespace BT;
 using namespace std;
 
-class FibonacciSequence : public SyncActionNode {
+class Speaking : public SyncActionNode {
     public:
-    FibonacciSequence(
+    Speaking(
         const string & name,
         const NodeConfig & config
     ) : SyncActionNode(name, config) {}
@@ -17,10 +17,10 @@ class FibonacciSequence : public SyncActionNode {
     NodeStatus tick() override {
         string msg;
         if (getInput("message", msg)) {
-            cout << "FibonacciSequence: " << msg << endl;
+            cout << "Speaking: " << msg << endl;
             return NodeStatus::SUCCESS;
         } else {
-            cout << "FibonacciSequence FAILED" << endl;
+            cout << "Speaking FAILED" << endl;
             return NodeStatus::FAILURE;
         }
     }
@@ -33,18 +33,12 @@ class FibonacciSequence : public SyncActionNode {
 };
 
 static const char * xml_text = R"(
- <root BTCPP_format="4">
+ <root BTCPP_format="3">
      <BehaviorTree>
         <Sequence>
-            <PrintValue message="start"/>
-            <SleepAction name="sleepA" msec="2000"/>
-            <PrintValue message="sleep completed"/>
-            <Fallback>
-                <Timeout msec="1500">
-                   <SleepAction name="sleepB" action_name="sleep_service" msec="2000"/>
-                </Timeout>
-                <PrintValue message="sleep aborted"/>
-            </Fallback>
+            <FiboSeq message = "Sequence start with (0) 1 1."/>
+            <Fibonacci name = "FiboAction" order = "10"/>
+            <FiboSeq message = "Fibonacci sequence ended."/>
         </Sequence>
      </BehaviorTree>
  </root>
@@ -56,6 +50,8 @@ int main(int argc, char ** argv) {
     BehaviorTreeFactory factory;
     
     auto node = std::make_shared<rclcpp::Node>("fibonacci_action_client");
+
+    factory.registerNodeType<Speaking>("FiboSeq");
     
     RosNodeParams params; 
     params.nh = node;

@@ -1,5 +1,0 @@
-[0.013s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/AStar': /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/AStar -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/AStar
-[0.028s] -- Configuring done
-[0.030s] -- Generating done
-[0.030s] -- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/src/AStar
-[0.031s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/AStar' returned '0': /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/AStar -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/AStar

@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:35 (install):
-  install DIRECTORY given no DESTINATION!
-
-[0m
-gmake: *** [Makefile:335: cmake_check_build_system] Error 1

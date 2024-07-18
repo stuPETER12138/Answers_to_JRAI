@@ -22,7 +22,7 @@ NodeStatus FibonacciAction::onFailure(ActionNodeErrorCode error) {
 
 NodeStatus FibonacciAction::onFeedback(const std::shared_ptr<const Feedback> feedback) {
     std::stringstream ss;
-    ss << "Next number in sequence received: ";
+    ss << "New sequence is: ";
     for (auto number : feedback->partial_sequence) {
       ss << number << " ";
     }

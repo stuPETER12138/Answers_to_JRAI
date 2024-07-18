@@ -4,6 +4,12 @@
 ![Static Badge](https://img.shields.io/badge/CMAKE-3.8-pink)
 ![Static Badge](https://img.shields.io/badge/python-3.10.12-yellow)
 
+### 千里之行，始于足下
+
+```bash
+colcon build
+```
+
 ### 第 1 - 4 题
 - 想看源代码？ [./src/part_one](./src/part_one)
 
@@ -32,8 +38,17 @@ cd ./src/AStar/
 
 安装依赖： [食用方法](./public/docs/How%20to%20install%20something%20abiut%20BehaviorTree.md)
 
+- 基于 BehaviorTree.CPP 的一个简单的行为树：
+
 ```bash
  ./build/bt_cpp/simple_tree
  ```
+
+- 基于 BehaviorTree.ROS2 的动作通信：
+
+```bash
+source install/setup.bash
+ros2 launch bt_ros2 bt_ros2.launch.py
+```
 
 ### 第 7 题
