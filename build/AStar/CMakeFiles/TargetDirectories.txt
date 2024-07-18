@@ -1,7 +1,0 @@
-/home/wu/SRC/Answers_to_JRAI/build/AStar/CMakeFiles/Astar.dir
-/home/wu/SRC/Answers_to_JRAI/build/AStar/CMakeFiles/edit_cache.dir
-/home/wu/SRC/Answers_to_JRAI/build/AStar/CMakeFiles/rebuild_cache.dir
-/home/wu/SRC/Answers_to_JRAI/build/AStar/CMakeFiles/list_install_components.dir
-/home/wu/SRC/Answers_to_JRAI/build/AStar/CMakeFiles/install.dir
-/home/wu/SRC/Answers_to_JRAI/build/AStar/CMakeFiles/install/local.dir
-/home/wu/SRC/Answers_to_JRAI/build/AStar/CMakeFiles/install/strip.dir

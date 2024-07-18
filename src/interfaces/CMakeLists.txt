@@ -11,10 +11,12 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Now.msg"
   "srv/Money.srv"
   "action/Boiling.action"
+  "action/Fibonacci.action"
 )
 
 if(BUILD_TESTING)

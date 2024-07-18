@@ -1,0 +1,415 @@
+[0.053s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.053s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74e9e9436440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74e9e9435d80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74e9e9435d80>>, mixin_verb=('build',))
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.128s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wu/SRC/Answers_to_JRAI'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/docs) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(public/img) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/AStar) by extension 'python'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AStar' with type 'cmake' and name 'AStar'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_cpp) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_cpp) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_cpp) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_cpp) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_cpp) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_cpp) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_cpp) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_cpp) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bt_cpp' with type 'ros.ament_cmake' and name 'bt_cpp'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_ros2) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_ros2) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_ros2) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_ros2) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_ros2) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_ros2) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_ros2) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_ros2) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bt_ros2' with type 'ros.ament_cmake' and name 'bt_ros2'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/part_one) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/part_one) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/part_one) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/part_one) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/part_one) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/part_one) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/part_one) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/part_one) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/part_one) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/part_one' with type 'ros.ament_cmake' and name 'part_one'
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.152s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'AStar' build argument 'cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'AStar' build argument 'cmake_target' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'AStar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'AStar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'AStar' build argument 'cmake_clean_first' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'AStar' build argument 'cmake_force_configure' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'AStar' build argument 'ament_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'AStar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'AStar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.177s] DEBUG:colcon.colcon_core.verb:Building package 'AStar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wu/SRC/Answers_to_JRAI/build/AStar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wu/SRC/Answers_to_JRAI/install/AStar', 'merge_install': False, 'path': '/home/wu/SRC/Answers_to_JRAI/src/AStar', 'symlink_install': False, 'test_result_base': None}
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'bt_cpp' build argument 'cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'bt_cpp' build argument 'cmake_target' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'bt_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'bt_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'bt_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'bt_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'bt_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'bt_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'bt_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.177s] DEBUG:colcon.colcon_core.verb:Building package 'bt_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp', 'merge_install': False, 'path': '/home/wu/SRC/Answers_to_JRAI/src/bt_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'bt_ros2' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'bt_ros2' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'bt_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'bt_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'bt_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'bt_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'bt_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'bt_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'bt_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'bt_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2', 'merge_install': False, 'path': '/home/wu/SRC/Answers_to_JRAI/src/bt_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wu/SRC/Answers_to_JRAI/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wu/SRC/Answers_to_JRAI/install/interfaces', 'merge_install': False, 'path': '/home/wu/SRC/Answers_to_JRAI/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'part_one' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'part_one' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'part_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'part_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'part_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'part_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'part_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'part_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'part_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'part_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wu/SRC/Answers_to_JRAI/build/part_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wu/SRC/Answers_to_JRAI/install/part_one', 'merge_install': False, 'path': '/home/wu/SRC/Answers_to_JRAI/src/part_one', 'symlink_install': False, 'test_result_base': None}
+[0.178s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.179s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wu/SRC/Answers_to_JRAI/src/interfaces' with build type 'ament_cmake'
+[0.179s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wu/SRC/Answers_to_JRAI/src/interfaces'
+[0.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wu/SRC/Answers_to_JRAI/src/AStar'
+[0.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wu/SRC/Answers_to_JRAI/src/bt_cpp' with build type 'ament_cmake'
+[0.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wu/SRC/Answers_to_JRAI/src/bt_cpp'
+[0.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.186s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wu/SRC/Answers_to_JRAI/src/bt_ros2' with build type 'ament_cmake'
+[0.186s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wu/SRC/Answers_to_JRAI/src/bt_ros2'
+[0.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/interfaces
+[0.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/AStar': /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/AStar -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/AStar
+[0.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/bt_cpp -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/bt_cpp
+[0.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/bt_ros2 -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/bt_ros2
+[0.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/AStar' returned '0': /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/AStar -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/AStar
+[0.214s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not build CMake package 'AStar' because the CMake cache has no 'CMAKE_PROJECT_NAME' variable
+[0.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/bt_cpp -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/bt_cpp
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16
+[1.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/interfaces
+[1.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16
+[1.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/bt_ros2 -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/bt_ros2
+[1.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_ros2 -- -j16 -l16
+[1.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_ros2 -- -j16 -l16
+[1.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_ros2
+[1.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bt_ros2)
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_ros2
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2' for CMake module files
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2' for CMake config files
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt_ros2', 'cmake_prefix_path')
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/hook/cmake_prefix_path.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/hook/cmake_prefix_path.dsv'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/hook/cmake_prefix_path.sh'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/bin'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/lib/pkgconfig/bt_ros2.pc'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/lib/python3.10/site-packages'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/bin'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.ps1'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.sh'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.bash'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.zsh'
+[1.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/colcon-core/packages/bt_ros2)
+[1.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bt_ros2)
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2' for CMake module files
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2' for CMake config files
+[1.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt_ros2', 'cmake_prefix_path')
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/hook/cmake_prefix_path.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/hook/cmake_prefix_path.dsv'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/hook/cmake_prefix_path.sh'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/bin'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/lib/pkgconfig/bt_ros2.pc'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/lib/python3.10/site-packages'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/bin'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.ps1'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.dsv'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.sh'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.bash'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.zsh'
+[1.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/colcon-core/packages/bt_ros2)
+[2.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16
+[2.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_cpp
+[2.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bt_cpp)
+[2.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_cpp
+[2.957s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp' for CMake module files
+[2.958s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp' for CMake config files
+[2.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt_cpp', 'cmake_prefix_path')
+[2.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/hook/cmake_prefix_path.ps1'
+[2.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/hook/cmake_prefix_path.dsv'
+[2.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/hook/cmake_prefix_path.sh'
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/bin'
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/lib/pkgconfig/bt_cpp.pc'
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/lib/python3.10/site-packages'
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/bin'
+[2.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.ps1'
+[2.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.dsv'
+[2.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.sh'
+[2.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.bash'
+[2.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.zsh'
+[2.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/colcon-core/packages/bt_cpp)
+[2.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bt_cpp)
+[2.986s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp' for CMake module files
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp' for CMake config files
+[2.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt_cpp', 'cmake_prefix_path')
+[2.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/hook/cmake_prefix_path.ps1'
+[2.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/hook/cmake_prefix_path.dsv'
+[2.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/hook/cmake_prefix_path.sh'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/bin'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/lib/pkgconfig/bt_cpp.pc'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/lib/python3.10/site-packages'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/bin'
+[2.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.ps1'
+[2.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.dsv'
+[2.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.sh'
+[2.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.bash'
+[2.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/bt_cpp/package.zsh'
+[2.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wu/SRC/Answers_to_JRAI/install/bt_cpp/share/colcon-core/packages/bt_cpp)
+[3.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/interfaces -- -j16 -l16
+[4.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/interfaces
+[4.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/interfaces
+[4.068s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces' for CMake module files
+[4.069s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces' for CMake config files
+[4.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.072s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib'
+[4.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/bin'
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/python3.10/site-packages'
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/bin'
+[4.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.ps1'
+[4.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.dsv'
+[4.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.sh'
+[4.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.bash'
+[4.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.zsh'
+[4.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/colcon-core/packages/interfaces)
+[4.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces' for CMake module files
+[4.204s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces' for CMake config files
+[4.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib'
+[4.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/bin'
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib/python3.10/site-packages'
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/interfaces/bin'
+[4.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.ps1'
+[4.206s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.dsv'
+[4.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.sh'
+[4.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.bash'
+[4.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/package.zsh'
+[4.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/colcon-core/packages/interfaces)
+[4.207s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wu/SRC/Answers_to_JRAI/src/part_one' with build type 'ament_cmake'
+[4.207s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wu/SRC/Answers_to_JRAI/src/part_one'
+[4.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/part_one -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/part_one
+[5.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/part_one -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/part_one
+[5.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[12.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[12.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one
+[12.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(part_one)
+[12.295s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one' for CMake module files
+[12.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one
+[12.296s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one' for CMake config files
+[12.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('part_one', 'cmake_prefix_path')
+[12.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/hook/cmake_prefix_path.ps1'
+[12.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/hook/cmake_prefix_path.dsv'
+[12.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/hook/cmake_prefix_path.sh'
+[12.298s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/lib'
+[12.298s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/bin'
+[12.298s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/pkgconfig/part_one.pc'
+[12.299s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/python3.10/site-packages'
+[12.299s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/bin'
+[12.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.ps1'
+[12.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.dsv'
+[12.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.sh'
+[12.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.bash'
+[12.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.zsh'
+[12.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wu/SRC/Answers_to_JRAI/install/part_one/share/colcon-core/packages/part_one)
+[12.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(part_one)
+[12.358s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one' for CMake module files
+[12.358s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one' for CMake config files
+[12.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('part_one', 'cmake_prefix_path')
+[12.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/hook/cmake_prefix_path.ps1'
+[12.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/hook/cmake_prefix_path.dsv'
+[12.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/hook/cmake_prefix_path.sh'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/lib'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/bin'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/pkgconfig/part_one.pc'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/python3.10/site-packages'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/wu/SRC/Answers_to_JRAI/install/part_one/bin'
+[12.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.ps1'
+[12.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.dsv'
+[12.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.sh'
+[12.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.bash'
+[12.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.zsh'
+[12.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wu/SRC/Answers_to_JRAI/install/part_one/share/colcon-core/packages/part_one)
+[12.360s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.361s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.364s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.373s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.373s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wu/SRC/Answers_to_JRAI/install/local_setup.ps1'
+[12.374s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wu/SRC/Answers_to_JRAI/install/_local_setup_util_ps1.py'
+[12.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wu/SRC/Answers_to_JRAI/install/setup.ps1'
+[12.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wu/SRC/Answers_to_JRAI/install/local_setup.sh'
+[12.376s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wu/SRC/Answers_to_JRAI/install/_local_setup_util_sh.py'
+[12.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wu/SRC/Answers_to_JRAI/install/setup.sh'
+[12.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wu/SRC/Answers_to_JRAI/install/local_setup.bash'
+[12.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wu/SRC/Answers_to_JRAI/install/setup.bash'
+[12.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wu/SRC/Answers_to_JRAI/install/local_setup.zsh'
+[12.378s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wu/SRC/Answers_to_JRAI/install/setup.zsh'

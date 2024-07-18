@@ -1,0 +1,66 @@
+[0.015s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/bt_ros2 -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/bt_ros2
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.151s] -- Detecting C compile features - done
+[0.153s] -- Detecting CXX compiler ABI info
+[0.212s] -- Detecting CXX compiler ABI info - done
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.216s] -- Detecting CXX compile features
+[0.216s] -- Detecting CXX compile features - done
+[0.217s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.366s] -- Found behaviortree_ros2: 0.2.0 (/usr/local/share/behaviortree_ros2/cmake)
+[0.390s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.392s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.397s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.455s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.530s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.550s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.584s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.589s] -- Looking for pthread.h
+[0.651s] -- Looking for pthread.h - found
+[0.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.713s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.714s] -- Found Threads: TRUE  
+[0.929s] -- Found parameter_traits: 0.3.8 (/usr/local/share/parameter_traits/cmake)
+[0.949s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.982s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.994s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.044s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.045s] -- Configured cppcheck include dirs: 
+[1.045s] -- Configured cppcheck exclude dirs and/or files: 
+[1.045s] -- Added test 'lint_cmake' to check CMake code style
+[1.047s] -- Added test 'uncrustify' to check C / C++ code style
+[1.047s] -- Configured uncrustify additional arguments: 
+[1.047s] -- Added test 'xmllint' to check XML markup files
+[1.048s] -- Configuring done
+[1.052s] -- Generating done
+[1.053s] -- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/bt_ros2
+[1.061s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/bt_ros2 -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/bt_ros2
+[1.062s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_ros2 -- -j16 -l16
+[1.092s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_ros2 -- -j16 -l16
+[1.118s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_ros2
+[1.124s] -- Install configuration: ""
+[1.124s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/ament_index/resource_index/package_run_dependencies/bt_ros2
+[1.124s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/ament_index/resource_index/parent_prefix_path/bt_ros2
+[1.124s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/environment/ament_prefix_path.sh
+[1.124s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/environment/ament_prefix_path.dsv
+[1.124s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/environment/path.sh
+[1.124s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/environment/path.dsv
+[1.124s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/local_setup.bash
+[1.124s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/local_setup.sh
+[1.124s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/local_setup.zsh
+[1.125s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/local_setup.dsv
+[1.125s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.dsv
+[1.125s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/ament_index/resource_index/packages/bt_ros2
+[1.125s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/cmake/bt_ros2Config.cmake
+[1.125s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/cmake/bt_ros2Config-version.cmake
+[1.125s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/bt_ros2/share/bt_ros2/package.xml
+[1.127s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/bt_ros2

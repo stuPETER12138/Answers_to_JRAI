@@ -1,2 +1,0 @@
-Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16
-Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/bt_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/bt_cpp -- -j16 -l16

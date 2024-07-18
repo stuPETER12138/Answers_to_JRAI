@@ -78,6 +78,10 @@ CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/boiling.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/boiling__builder.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/boiling__struct.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/boiling__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/fibonacci.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/fibonacci__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/fibonacci__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/fibonacci__traits.hpp
 
 rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -97,6 +101,7 @@ rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/share/rosidl_genera
 rosidl_generator_cpp/interfaces/msg/now.hpp: rosidl_adapter/interfaces/msg/Now.idl
 rosidl_generator_cpp/interfaces/msg/now.hpp: rosidl_adapter/interfaces/srv/Money.idl
 rosidl_generator_cpp/interfaces/msg/now.hpp: rosidl_adapter/interfaces/action/Boiling.idl
+rosidl_generator_cpp/interfaces/msg/now.hpp: rosidl_adapter/interfaces/action/Fibonacci.idl
 rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/interfaces/msg/now.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -140,11 +145,27 @@ rosidl_generator_cpp/interfaces/action/detail/boiling__struct.hpp: rosidl_genera
 rosidl_generator_cpp/interfaces/action/detail/boiling__traits.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/detail/boiling__traits.hpp
 
+rosidl_generator_cpp/interfaces/action/fibonacci.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/fibonacci.hpp
+
+rosidl_generator_cpp/interfaces/action/detail/fibonacci__builder.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/detail/fibonacci__builder.hpp
+
+rosidl_generator_cpp/interfaces/action/detail/fibonacci__struct.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/detail/fibonacci__struct.hpp
+
+rosidl_generator_cpp/interfaces/action/detail/fibonacci__traits.hpp: rosidl_generator_cpp/interfaces/msg/now.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/detail/fibonacci__traits.hpp
+
 interfaces__cpp: CMakeFiles/interfaces__cpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/action/boiling.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/boiling__builder.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/boiling__struct.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/boiling__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/fibonacci__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/fibonacci__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/fibonacci__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/action/fibonacci.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/now__builder.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/now__struct.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/now__traits.hpp

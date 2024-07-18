@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_boiling_s.c.o"
   "CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_boiling_s.c.o.d"
+  "CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_fibonacci_s.c.o"
+  "CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_fibonacci_s.c.o.d"
   "CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_now_s.c.o"
   "CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_now_s.c.o.d"
   "CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_money_s.c.o"

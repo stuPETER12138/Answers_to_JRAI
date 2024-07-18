@@ -10,7 +10,8 @@
                 "/home/wu/SRC/Answers_to_JRAI/src/interfaces/include/**",
                 "/usr/include/**",
                 "${workspaceFolder}/install/interfaces/include/**",
-                "${workspaceFolder}/src/bt_cpp/include/sample_nodes"
+                "${workspaceFolder}/src/bt_cpp/include/sample_nodes",
+                "/usr/local/include/btcpp_ros2_interfaces"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

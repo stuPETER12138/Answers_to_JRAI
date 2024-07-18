@@ -1,0 +1,2 @@
+Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/AStar': /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/AStar -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/AStar
+Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/AStar' returned '0': /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/AStar -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/AStar

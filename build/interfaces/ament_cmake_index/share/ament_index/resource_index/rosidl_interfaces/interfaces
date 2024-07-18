@@ -1,5 +1,7 @@
 action/Boiling.action
 action/Boiling.idl
+action/Fibonacci.action
+action/Fibonacci.idl
 msg/Now.idl
 msg/Now.msg
 srv/Money.idl

@@ -1,0 +1,114 @@
+[0.007s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/part_one -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/part_one
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.251s] -- Detecting CXX compile features
+[0.251s] -- Detecting CXX compile features - done
+[0.252s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.351s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.428s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.457s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.460s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.464s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.521s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.522s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.606s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.624s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.655s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.660s] -- Looking for pthread.h
+[0.723s] -- Looking for pthread.h - found
+[0.723s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.782s] -- Found Threads: TRUE  
+[0.885s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.939s] -- Found interfaces: 0.0.0 (/home/wu/SRC/Answers_to_JRAI/install/interfaces/share/interfaces/cmake)
+[0.970s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.021s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.021s] -- Configured cppcheck include dirs: 
+[1.021s] -- Configured cppcheck exclude dirs and/or files: 
+[1.021s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.021s] -- Added test 'lint_cmake' to check CMake code style
+[1.022s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.022s] -- Added test 'uncrustify' to check C / C++ code style
+[1.022s] -- Configured uncrustify additional arguments: 
+[1.023s] -- Added test 'xmllint' to check XML markup files
+[1.023s] -- Configuring done
+[1.042s] -- Generating done
+[1.044s] -- Build files have been written to: /home/wu/SRC/Answers_to_JRAI/build/part_one
+[1.051s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wu/SRC/Answers_to_JRAI/src/part_one -DCMAKE_INSTALL_PREFIX=/home/wu/SRC/Answers_to_JRAI/install/part_one
+[1.052s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/node_3_server.dir/src/node_3_server.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/node_3_client.dir/src/node_3_client.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/node_4_client.dir/src/node_4_client.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/node_2_03.dir/src/node_2_03.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/node_1_subscriber.dir/src/node_1_subscriber.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/node_2_01.dir/src/node_2_01.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/node_1_publisher.dir/src/node_1_publisher.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/node_2_02.dir/src/node_2_02.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/node_4_server.dir/src/node_4_server.cpp.o[0m
+[3.743s] [ 55%] [32m[1mLinking CXX executable node_3_server[0m
+[3.812s] [ 61%] [32m[1mLinking CXX executable node_3_client[0m
+[3.870s] [ 61%] Built target node_3_server
+[3.935s] [ 61%] Built target node_3_client
+[3.941s] [ 66%] [32m[1mLinking CXX executable node_4_server[0m
+[4.062s] [ 66%] Built target node_4_server
+[4.323s] [ 72%] [32m[1mLinking CXX executable node_1_publisher[0m
+[4.454s] [ 77%] [32m[1mLinking CXX executable node_4_client[0m
+[4.470s] [ 77%] Built target node_1_publisher
+[4.579s] [ 77%] Built target node_4_client
+[6.950s] [ 83%] [32m[1mLinking CXX executable node_1_subscriber[0m
+[7.202s] [ 83%] Built target node_1_subscriber
+[7.270s] [ 88%] [32m[1mLinking CXX executable node_2_02[0m
+[7.497s] [ 94%] [32m[1mLinking CXX executable node_2_03[0m
+[7.528s] [ 94%] Built target node_2_02
+[7.749s] [ 94%] Built target node_2_03
+[7.782s] [100%] [32m[1mLinking CXX executable node_2_01[0m
+[7.999s] [100%] Built target node_2_01
+[8.012s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/SRC/Answers_to_JRAI/build/part_one -- -j16 -l16
+[8.063s] Invoking command in '/home/wu/SRC/Answers_to_JRAI/build/part_one': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one
+[8.068s] -- Install configuration: ""
+[8.068s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_publisher
+[8.069s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_publisher" to ""
+[8.069s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_subscriber
+[8.072s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_1_subscriber" to ""
+[8.072s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_01
+[8.074s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_01" to ""
+[8.074s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_02
+[8.077s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_02" to ""
+[8.077s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_03
+[8.080s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_2_03" to ""
+[8.080s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_server
+[8.080s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_server" to ""
+[8.080s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_client
+[8.081s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_3_client" to ""
+[8.081s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_4_server
+[8.082s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_4_server" to ""
+[8.082s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_4_client
+[8.082s] -- Set runtime path of "/home/wu/SRC/Answers_to_JRAI/install/part_one/lib/part_one/node_4_client" to ""
+[8.082s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/launch
+[8.083s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/launch/part_one.launch.py
+[8.083s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/package_run_dependencies/part_one
+[8.083s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/parent_prefix_path/part_one
+[8.083s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.sh
+[8.083s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/ament_prefix_path.dsv
+[8.083s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.sh
+[8.083s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/environment/path.dsv
+[8.084s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.bash
+[8.084s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.sh
+[8.084s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.zsh
+[8.084s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/local_setup.dsv
+[8.084s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.dsv
+[8.084s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/ament_index/resource_index/packages/part_one
+[8.084s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig.cmake
+[8.084s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/cmake/part_oneConfig-version.cmake
+[8.084s] -- Installing: /home/wu/SRC/Answers_to_JRAI/install/part_one/share/part_one/package.xml
+[8.087s] Invoked command in '/home/wu/SRC/Answers_to_JRAI/build/part_one' returned '0': AMENT_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/SRC/Answers_to_JRAI/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/SRC/Answers_to_JRAI/build/part_one

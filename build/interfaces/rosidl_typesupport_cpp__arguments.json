@@ -5,7 +5,8 @@
   "idl_tuples": [
     "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces:msg/Now.idl",
     "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces:srv/Money.idl",
-    "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces:action/Boiling.idl"
+    "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces:action/Boiling.idl",
+    "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces:action/Fibonacci.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -26,6 +27,7 @@
     "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces/msg/Now.idl",
     "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces/srv/Money.idl",
     "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces/action/Boiling.idl",
+    "/home/wu/SRC/Answers_to_JRAI/build/interfaces/rosidl_adapter/interfaces/action/Fibonacci.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",
