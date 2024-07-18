@@ -1,6 +1,4 @@
-<div align = 'center'>
-    <font size = '60'>Answers to JRAI</font>
-</div>
+<h1 align="center">Answers to JRAI</h1>
 
 <div align = 'center'>
     <img alt="Static Badge" src="https://img.shields.io/badge/license-MIT-green">
