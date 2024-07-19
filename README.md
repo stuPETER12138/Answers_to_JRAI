@@ -59,5 +59,11 @@ ros2 launch bt_ros2 bt_ros2.launch.py
 ```
 
 ### 第 7 题
+要求在 Gazebo 中部署 Navigation 2，实现小车能够导航至任一点击目标点视为完成任务。
+
+- [ ] 可在Gazebo中显示仿真环境 
+- [ ] 可在Gazebo中显示机器人模型
+- [ ] 可在Rviz中显示规划出来的路径
+- [ ] 机器人可移动至目标点
 
 ### 第 8 题
