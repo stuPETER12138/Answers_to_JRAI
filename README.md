@@ -43,7 +43,7 @@ cd ./src/AStar/
 ### 第 6 题
 使用开源行为树框架，设计一个简单的行为树。
 
-安装依赖： [食用方法](./public/doc/How_to_install_something_abiut_BehaviorTree.md)
+安装依赖： [食用方法](./public/docs/How_to_install_something_abiut_BehaviorTree.md)
 
 - 基于 BehaviorTree.CPP 的一个简单的行为树：
 
@@ -60,6 +60,8 @@ ros2 launch bt_ros2 bt_ros2.launch.py
 
 ### 第 7 题
 要求在 Gazebo 中部署 Navigation 2，实现小车能够导航至任一点击目标点视为完成任务。
+
+- [操作指北](./public/docs/something_about_nav2.md)
 
 - [ ] 可在Gazebo中显示仿真环境 
 - [ ] 可在Gazebo中显示机器人模型
