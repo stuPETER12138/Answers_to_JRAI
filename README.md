@@ -61,11 +61,20 @@ ros2 launch bt_ros2 bt_ros2.launch.py
 ### 第 7 题
 要求在 Gazebo 中部署 Navigation 2，实现小车能够导航至任一点击目标点视为完成任务。
 
+> 感谢`鱼香 ROS`提供 fishbot 机器人模板
+
 - [操作指北](./public/docs/something_about_nav2.md)
 
-- [ ] 可在Gazebo中显示仿真环境 
-- [ ] 可在Gazebo中显示机器人模型
-- [ ] 可在Rviz中显示规划出来的路径
-- [ ] 机器人可移动至目标点
+- [x] 可在Gazebo中显示仿真环境 
+- [x] 可在Gazebo中显示机器人模型
+- [x] 可在Rviz中显示规划出来的路径
+- [x] 机器人可移动至目标点
 
 ### 第 8 题
+- 步骤一：从我们提供的两个PCD(Point Cloud Data)文件中任选其一，读取pcd文件，对其进行降采样。
+
+- 步骤二：自行选择提取平面的方法（如PCA、RANSAC等）对点云进行处理，获得平面参数并输出。
+
+- 步骤三：将任意一个平面从点云中删除，将处理过后的点云存储为PCD文件。
+
+- [ ] 将点云处理可视化展现出来
