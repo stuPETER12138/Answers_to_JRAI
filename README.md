@@ -12,7 +12,6 @@
 </div>
 
 ### 千里之行，始于足下
-
 ```bash
 colcon build
 ```
@@ -71,7 +70,6 @@ ros2 launch bt_ros2 bt_ros2.launch.py
 - [x] 机器人可移动至目标点
 
 ### 第 8 题
-
 #### 8.1 点云处理
 - 步骤一：从我们提供的两个PCD(Point Cloud Data)文件中任选其一，读取pcd文件，对其进行降采样。
 
