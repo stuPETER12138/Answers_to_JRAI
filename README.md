@@ -71,6 +71,8 @@ ros2 launch bt_ros2 bt_ros2.launch.py
 - [x] 机器人可移动至目标点
 
 ### 第 8 题
+
+#### 8.1 点云处理
 - 步骤一：从我们提供的两个PCD(Point Cloud Data)文件中任选其一，读取pcd文件，对其进行降采样。
 
 - 步骤二：自行选择提取平面的方法（如PCA、RANSAC等）对点云进行处理，获得平面参数并输出。
@@ -78,3 +80,12 @@ ros2 launch bt_ros2 bt_ros2.launch.py
 - 步骤三：将任意一个平面从点云中删除，将处理过后的点云存储为PCD文件。
 
 - [ ] 点云处理可视化
+
+#### 8.2 搭建仿真环境
+<!--采用 鱼香 ROS 提供 fishbot 机器人模板-->
+具体文件位于 [src/sample_bot_description](src/sample_bot_description) 与 [src/sample_bot_cartographer](src/sample_bot_cartographer)
+
+TO DO:
+
+- 配置 nav2
+- 实现自主导航
