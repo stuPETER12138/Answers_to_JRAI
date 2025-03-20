@@ -1,12 +1,15 @@
 <h1 align="center">Answers to JRAI</h1>
 
 <div align = 'center'>
-    <img alt="Static Badge" src="https://img.shields.io/badge/license-MIT-green">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Ubuntu-22.04-orange">
-    <img alt="Static Badge" src="https://img.shields.io/badge/ROS2-Humble-blue">
+    <picture>
+        <img src="./public/img/ROS2.png" width="400" height="300">
+    </picture> 
 </div>
 
 <div align = 'center'>
+    <img alt="Static Badge" src="https://img.shields.io/badge/license-MIT-green">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Ubuntu-22.04-orange">
+    <img alt="Static Badge" src="https://img.shields.io/badge/ROS2-Humble-blue">
     <img alt="Static Badge" src="https://img.shields.io/badge/CMAKE-3.8-pink">
     <img alt="Static Badge" src="https://img.shields.io/badge/python-3.10.12-yellow">
 </div>
